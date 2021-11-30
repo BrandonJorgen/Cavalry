@@ -1,0 +1,727 @@
+{
+	"manifestChunkId": -1,
+	"pluginName": "NativizedAssets",
+	"outputDir": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game",
+	"moduleDependencies": [
+		"Package'/Script/CoreUObject'",
+		"Package'/Script/Engine'",
+		"Package'/Script/MagicLeapARPin'",
+		"Package'/Script/NavigationSystem'",
+		"Package'/Script/SlateCore'",
+		"Package'/Script/UMG'",
+		"Package'/Script/HeadMountedDisplay'",
+		"Package'/Script/InputCore'",
+		"Package'/Script/Niagara'",
+		"Package'/Script/PhysicsCore'",
+		"Package'/Script/MovieScene'",
+		"Package'/Script/MovieSceneTracks'",
+		"Package'/Script/Paper2D'",
+		"Package'/Script/AnimGraphRuntime'",
+		"Package'/Script/ClothingSystemRuntimeNv'",
+		"Package'/Script/SteamVR'",
+		"Package'/Script/KatDataPlugin4BP'",
+		"Package'/Script/Landscape'",
+		"Package'/Script/StaticMeshDescription'",
+		"Package'/Script/MeshDescription'",
+		"Package'/Script/AudioExtensions'",
+		"Package'/Script/AudioPlatformConfiguration'",
+		"Package'/Script/AIModule'",
+		"Package'/Script/GameplayTasks'",
+		"Package'/Script/GameplayTags'",
+		"Package'/Script/ClothingSystemRuntimeInterface'",
+		"Package'/Script/PropertyAccess'",
+		"Package'/Script/PropertyPath'",
+		"Package'/Script/Slate'",
+		"Package'/Script/AudioMixer'",
+		"Package'/Script/NiagaraShader'",
+		"Package'/Script/NiagaraCore'"
+	],
+	"convertedAssets":
+	{
+		"/Niagara/Enums/ENiagaraMassByVolume.ENiagaraMassByVolume":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraMassByVolume.ENiagaraMassByVolume",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraMassByVolume__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraMassByVolume__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraScaleColorMode.ENiagaraScaleColorMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraScaleColorMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraScaleColorMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraSystemInactiveMode.ENiagaraSystemInactiveMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraSystemInactiveMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraSystemInactiveMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraMeshTransforms.ENiagaraMeshTransforms":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraMeshTransforms.ENiagaraMeshTransforms",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraMeshTransforms__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraMeshTransforms__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_UVFlippingMode.ENiagara_UVFlippingMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_UVFlippingMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_UVFlippingMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_SpriteRotationMode.ENiagara_SpriteRotationMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_SpriteRotationMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_SpriteRotationMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_SizeScaleMode.ENiagara_SizeScaleMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_SizeScaleMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_SizeScaleMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_PositionInitializationMode.ENiagara_PositionInitializationMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_PositionInitializationMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_PositionInitializationMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_MassInitializationMode.ENiagara_MassInitializationMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_MassInitializationMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_MassInitializationMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_LifetimeMode.ENiagara_LifetimeMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_LifetimeMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_LifetimeMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_ColorInitializationMode.ENiagara_ColorInitializationMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_ColorInitializationMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_ColorInitializationMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraCoordinateSpace.ENiagaraCoordinateSpace",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraCoordinateSpace__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraCoordinateSpace__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraInactiveMode.ENiagaraInactiveMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraInactiveMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraInactiveMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraExecutionStateManagement.ENiagaraExecutionStateManagement",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraExecutionStateManagement__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraExecutionStateManagement__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraEmitterScalabilityMode_Limited.ENiagaraEmitterScalabilityMode_Limited",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraEmitterScalabilityMode_Limited__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraEmitterScalabilityMode_Limited__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraEmitterLifeCycleMode.ENiagaraEmitterLifeCycleMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraEmitterLifeCycleMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraEmitterLifeCycleMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_InfiniteLoopDuration.ENiagara_InfiniteLoopDuration",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_InfiniteLoopDuration__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_InfiniteLoopDuration__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagara_EmitterStateOptions.ENiagara_EmitterStateOptions",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagara_EmitterStateOptions__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagara_EmitterStateOptions__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraChannelCorrelation.ENiagaraChannelCorrelation",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraChannelCorrelation__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraChannelCorrelation__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraRandomnessMode.ENiagaraRandomnessMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraRandomnessMode__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraRandomnessMode__pf2855420827.cpp"
+		},
+		"/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Niagara/Enums/ENiagaraRandomnessEvaluation.ENiagaraRandomnessEvaluation",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENiagaraRandomnessEvaluation__pf2855420827.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENiagaraRandomnessEvaluation__pf2855420827.cpp"
+		},
+		"/Game/Blueprints/Tools/ENUM_ObjectType.ENUM_ObjectType":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Blueprints/Tools/ENUM_ObjectType.ENUM_ObjectType",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ENUM_ObjectType__pf3911806087.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ENUM_ObjectType__pf3911806087.cpp"
+		},
+		"/Game/Blueprints/Enums/E_LoadType.E_LoadType":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Blueprints/Enums/E_LoadType.E_LoadType",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/E_LoadType__pf1725717533.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/E_LoadType__pf1725717533.cpp"
+		},
+		"/Game/Meshes/Placeholder/Player_Generic/Hand_Positions_Enum.Hand_Positions_Enum":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Meshes/Placeholder/Player_Generic/Hand_Positions_Enum.Hand_Positions_Enum",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Hand_Positions_Enum__pf423755669.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Hand_Positions_Enum__pf423755669.cpp"
+		},
+		"/Game/Blueprints/Enums/E_Hands.E_Hands":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Blueprints/Enums/E_Hands.E_Hands",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/E_Hands__pf1725717533.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/E_Hands__pf1725717533.cpp"
+		},
+		"/Game/Blueprints/Enums/E_FireMode.E_FireMode":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Blueprints/Enums/E_FireMode.E_FireMode",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/E_FireMode__pf1725717533.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/E_FireMode__pf1725717533.cpp"
+		},
+		"/Game/Blueprints/Enums/E_Horsemen.E_Horsemen":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/Blueprints/Enums/E_Horsemen.E_Horsemen",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/E_Horsemen__pf1725717533.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/E_Horsemen__pf1725717533.cpp"
+		},
+		"/Game/HUD/Main_Menu/EGameState.EGameState":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedEnum'",
+			"targetObjPath": "/Game/HUD/Main_Menu/EGameState.EGameState",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/EGameState__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/EGameState__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/Struc_LevelData.Struc_LevelData":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedStruct'",
+			"targetObjPath": "/Game/HUD/Main_Menu/Struc_LevelData.Struc_LevelData",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Struc_LevelData__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Struc_LevelData__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/Struc_CharacterData.Struc_CharacterData":
+		{
+			"assetType": "Class'/Script/Engine.UserDefinedStruct'",
+			"targetObjPath": "/Game/HUD/Main_Menu/Struc_CharacterData.Struc_CharacterData",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Struc_CharacterData__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Struc_CharacterData__pf3256655095.cpp"
+		},
+		"/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/MagicLeapPassableWorld/MagicLeapARPinInfoActor.MagicLeapARPinInfoActor_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/MagicLeapARPinInfoActor__pf2635949152.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/MagicLeapARPinInfoActor__pf2635949152.cpp"
+		},
+		"/Game/HUD/Main_Menu/BPI_PlayerSelect.BPI_PlayerSelect_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/BPI_PlayerSelect.BPI_PlayerSelect_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_PlayerSelect__pf3256655095.h",
+			"generatedCppPath": ""
+		},
+		"/Game/HUD/Main_Menu/Widget_CharacterSelect_Button.Widget_CharacterSelect_Button_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/Widget_CharacterSelect_Button.Widget_CharacterSelect_Button_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Widget_CharacterSelect_Button__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Widget_CharacterSelect_Button__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/Widget_LevelSelect_Button.Widget_LevelSelect_Button_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/Widget_LevelSelect_Button.Widget_LevelSelect_Button_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Widget_LevelSelect_Button__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Widget_LevelSelect_Button__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/sub_MissionDetails.sub_MissionDetails_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/sub_MissionDetails.sub_MissionDetails_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/sub_MissionDetails__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/sub_MissionDetails__pf3256655095.cpp"
+		},
+		"/Game/HUD/Widgets/Objective_Display/BPI_ToggleObjective.BPI_ToggleObjective_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Objective_Display/BPI_ToggleObjective.BPI_ToggleObjective_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_ToggleObjective__pf2435026734.h",
+			"generatedCppPath": ""
+		},
+		"/Game/HUD/Widgets/Damage_Display/BPI_DamageDirection.BPI_DamageDirection_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/BPI_DamageDirection.BPI_DamageDirection_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_DamageDirection__pf760233656.h",
+			"generatedCppPath": ""
+		},
+		"/Game/HUD/Widgets/Objective_Display/ObjectiveMarker.ObjectiveMarker_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Objective_Display/ObjectiveMarker.ObjectiveMarker_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ObjectiveMarker__pf2435026734.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ObjectiveMarker__pf2435026734.cpp"
+		},
+		"/Game/HUD/Widgets/BPI_MissionText.BPI_MissionText_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/BPI_MissionText.BPI_MissionText_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_MissionText__pf1982152804.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Weapons/BPC_Shotgun.BPC_Shotgun_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Weapons/BPC_Shotgun.BPC_Shotgun_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPC_Shotgun__pf1418999182.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BPC_Shotgun__pf1418999182.cpp"
+		},
+		"/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection_Test.Trace_DamageDirection_Test_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection_Test.Trace_DamageDirection_Test_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Trace_DamageDirection_Test__pf760233656.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Trace_DamageDirection_Test__pf760233656.cpp"
+		},
+		"/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection.Trace_DamageDirection_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection.Trace_DamageDirection_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Trace_DamageDirection__pf760233656.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Trace_DamageDirection__pf760233656.cpp"
+		},
+		"/Game/Blueprints/Characters/BPC_War.BPC_War_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Characters/BPC_War.BPC_War_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPC_War__pf1490413170.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BPC_War__pf1490413170.cpp"
+		},
+		"/Game/HUD/Widgets/Objective_Display/BP_ObjectiveDisplay.BP_ObjectiveDisplay_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Objective_Display/BP_ObjectiveDisplay.BP_ObjectiveDisplay_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_ObjectiveDisplay__pf2435026734.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_ObjectiveDisplay__pf2435026734.cpp"
+		},
+		"/Game/HUD/Widgets/Objective_Display/BP_ObjectiveDisplay_Spawner.BP_ObjectiveDisplay_Spawner_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Objective_Display/BP_ObjectiveDisplay_Spawner.BP_ObjectiveDisplay_Spawner_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_ObjectiveDisplay_Spawner__pf2435026734.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_ObjectiveDisplay_Spawner__pf2435026734.cpp"
+		},
+		"/Game/HUD/Widgets/Objective_Display/ObjectivePointer.ObjectivePointer_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Objective_Display/ObjectivePointer.ObjectivePointer_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ObjectivePointer__pf2435026734.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ObjectivePointer__pf2435026734.cpp"
+		},
+		"/Game/HUD/Widgets/Widg_MissionText.Widg_MissionText_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Widg_MissionText.Widg_MissionText_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Widg_MissionText__pf1982152804.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Widg_MissionText__pf1982152804.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_TakeDamage.BPI_TakeDamage_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_TakeDamage.BPI_TakeDamage_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_TakeDamage__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/HUD/Widgets/Damage_Display/Spawned_DI.Spawned_DI_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/Spawned_DI.Spawned_DI_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Spawned_DI__pf760233656.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Spawned_DI__pf760233656.cpp"
+		},
+		"/Game/HUD/Widgets/Damage_Display/DamageIndicator_Actor.DamageIndicator_Actor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/DamageIndicator_Actor.DamageIndicator_Actor_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/DamageIndicator_Actor__pf760233656.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/DamageIndicator_Actor__pf760233656.cpp"
+		},
+		"/Game/HUD/Widgets/HUD_Overlay.HUD_Overlay_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/HUD_Overlay.HUD_Overlay_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/HUD_Overlay__pf1982152804.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/HUD_Overlay__pf1982152804.cpp"
+		},
+		"/Game/HUD/Widgets/Damage_Display/BP_HorsemenHUD.BP_HorsemenHUD_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Damage_Display/BP_HorsemenHUD.BP_HorsemenHUD_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_HorsemenHUD__pf760233656.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_HorsemenHUD__pf760233656.cpp"
+		},
+		"/Game/HUD/Widgets/Ammo_Display/AmmoMarker.AmmoMarker_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Ammo_Display/AmmoMarker.AmmoMarker_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/AmmoMarker__pf3627927311.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/AmmoMarker__pf3627927311.cpp"
+		},
+		"/Game/HUD/Widgets/Ammo_Display/AmmoDisplay.AmmoDisplay_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Widgets/Ammo_Display/AmmoDisplay.AmmoDisplay_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/AmmoDisplay__pf3627927311.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/AmmoDisplay__pf3627927311.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_Magnetic.BPI_Magnetic_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_Magnetic.BPI_Magnetic_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_Magnetic__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Tools/BP_MagneticPlacement.BP_MagneticPlacement_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Tools/BP_MagneticPlacement.BP_MagneticPlacement_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_MagneticPlacement__pf3911806087.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_MagneticPlacement__pf3911806087.cpp"
+		},
+		"/Game/Meshes/Placeholder/Player_Generic/ABP_Hand.ABP_Hand_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Meshes/Placeholder/Player_Generic/ABP_Hand.ABP_Hand_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ABP_Hand__pf423755669.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ABP_Hand__pf423755669.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_GrabbableObj.BPI_GrabbableObj_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_GrabbableObj.BPI_GrabbableObj_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_GrabbableObj__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_MotionController__pf563933975.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_MotionController__pf563933975.cpp"
+		},
+		"/Game/Blueprints/GrabbableObjectSocket.GrabbableObjectSocket_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/GrabbableObjectSocket.GrabbableObjectSocket_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GrabbableObjectSocket__pf2132744816.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GrabbableObjectSocket__pf2132744816.cpp"
+		},
+		"/Game/Blueprints/Weapons/BP_AmmoBase.BP_AmmoBase_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Weapons/BP_AmmoBase.BP_AmmoBase_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_AmmoBase__pf1418999182.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_AmmoBase__pf1418999182.cpp"
+		},
+		"/Game/Blueprints/Weapons/BP_BulletBase.BP_BulletBase_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Weapons/BP_BulletBase.BP_BulletBase_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_BulletBase__pf1418999182.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_BulletBase__pf1418999182.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_WeaponControls.BPI_WeaponControls_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_WeaponControls.BPI_WeaponControls_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_WeaponControls__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Interfaces/BPI_Shootable.BPI_Shootable_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_Shootable.BPI_Shootable_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_Shootable__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/PickupActorInterface__pf563933975.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Weapons/BP_Firearm_Base.BP_Firearm_Base_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Weapons/BP_Firearm_Base.BP_Firearm_Base_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Firearm_Base__pf1418999182.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Firearm_Base__pf1418999182.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_ToolControls.BPI_ToolControls_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_ToolControls.BPI_ToolControls_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_ToolControls__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Tools/BP_Tool_Base.BP_Tool_Base_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Tools/BP_Tool_Base.BP_Tool_Base_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Tool_Base__pf3911806087.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Tool_Base__pf3911806087.cpp"
+		},
+		"/Game/Blueprints/Weapons/BPC_Pistol.BPC_Pistol_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Weapons/BPC_Pistol.BPC_Pistol_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPC_Pistol__pf1418999182.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BPC_Pistol__pf1418999182.cpp"
+		},
+		"/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger.BP_GrabAmmoTrigger_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger.BP_GrabAmmoTrigger_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_GrabAmmoTrigger__pf3324220276.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_GrabAmmoTrigger__pf3324220276.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_GearCommunication.BPI_GearCommunication_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_GearCommunication.BPI_GearCommunication_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_GearCommunication__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/Characters/Gear/BP_PlayerGear.BP_PlayerGear_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Characters/Gear/BP_PlayerGear.BP_PlayerGear_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PlayerGear__pf3324220276.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PlayerGear__pf3324220276.cpp"
+		},
+		"/Game/Blueprints/Characters/BP_PlayerCharacter_Base.BP_PlayerCharacter_Base_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Characters/BP_PlayerCharacter_Base.BP_PlayerCharacter_Base_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PlayerCharacter_Base__pf1490413170.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PlayerCharacter_Base__pf1490413170.cpp"
+		},
+		"/Game/HUD/Main_Menu/sub_Character_Select.sub_Character_Select_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/sub_Character_Select.sub_Character_Select_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/sub_Character_Select__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/sub_Character_Select__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/sub_LevelSelect.sub_LevelSelect_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/sub_LevelSelect.sub_LevelSelect_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/sub_LevelSelect__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/sub_LevelSelect__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/MM_Center_Panel.MM_Center_Panel_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/MM_Center_Panel.MM_Center_Panel_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/MM_Center_Panel__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/MM_Center_Panel__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/BP_MainMenu_Actor.BP_MainMenu_Actor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/BP_MainMenu_Actor.BP_MainMenu_Actor_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_MainMenu_Actor__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_MainMenu_Actor__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/Start_Mission_Breif.Start_Mission_Breif_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/Start_Mission_Breif.Start_Mission_Breif_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/Start_Mission_Breif__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/Start_Mission_Breif__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/BP_MissionBrief_Actor.BP_MissionBrief_Actor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/BP_MissionBrief_Actor.BP_MissionBrief_Actor_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_MissionBrief_Actor__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_MissionBrief_Actor__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/LoadingScreen.LoadingScreen_C":
+		{
+			"assetType": "Class'/Script/UMGEditor.WidgetBlueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/LoadingScreen.LoadingScreen_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/LoadingScreen__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/LoadingScreen__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/BP_Loading_Actor.BP_Loading_Actor_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/BP_Loading_Actor.BP_Loading_Actor_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Loading_Actor__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Loading_Actor__pf3256655095.cpp"
+		},
+		"/Game/HUD/Main_Menu/BP_Cavalry_GameInstance.BP_Cavalry_GameInstance_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/HUD/Main_Menu/BP_Cavalry_GameInstance.BP_Cavalry_GameInstance_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Cavalry_GameInstance__pf3256655095.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Cavalry_GameInstance__pf3256655095.cpp"
+		},
+		"/Game/Blueprints/Characters/BP_CavalryController.BP_CavalryController_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Characters/BP_CavalryController.BP_CavalryController_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_CavalryController__pf1490413170.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_CavalryController__pf1490413170.cpp"
+		},
+		"/Game/Blueprints/Interfaces/BPI_GameStateCommunication.BPI_GameStateCommunication_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Interfaces/BPI_GameStateCommunication.BPI_GameStateCommunication_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BPI_GameStateCommunication__pf691914051.h",
+			"generatedCppPath": ""
+		},
+		"/Game/Blueprints/LF-19/BP_HostageTest.BP_HostageTest_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/LF-19/BP_HostageTest.BP_HostageTest_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_HostageTest__pf4081514875.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_HostageTest__pf4081514875.cpp"
+		},
+		"/Game/Blueprints/GS_Cavalry.GS_Cavalry_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/GS_Cavalry.GS_Cavalry_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GS_Cavalry__pf2132744816.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GS_Cavalry__pf2132744816.cpp"
+		},
+		"/Game/Blueprints/GM_Cavalry.GM_Cavalry_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/GM_Cavalry.GM_Cavalry_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GM_Cavalry__pf2132744816.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GM_Cavalry__pf2132744816.cpp"
+		},
+		"/Game/Blueprints/Playground/BP_PlayerDamageTest.BP_PlayerDamageTest_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Playground/BP_PlayerDamageTest.BP_PlayerDamageTest_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PlayerDamageTest__pf2041431817.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PlayerDamageTest__pf2041431817.cpp"
+		},
+		"/Game/Blueprints/Tools/BP_Shield.BP_Shield_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Tools/BP_Shield.BP_Shield_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Shield__pf3911806087.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Shield__pf3911806087.cpp"
+		},
+		"/Game/Meshes/Placeholder/War/ABP_Tool_ShieldBase_Whitebox_01.ABP_Tool_ShieldBase_Whitebox_01_C":
+		{
+			"assetType": "Class'/Script/Engine.AnimBlueprint'",
+			"targetObjPath": "/Game/Meshes/Placeholder/War/ABP_Tool_ShieldBase_Whitebox_01.ABP_Tool_ShieldBase_Whitebox_01_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/ABP_Tool_ShieldBase_Whitebox_01__pf2439319826.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/ABP_Tool_ShieldBase_Whitebox_01__pf2439319826.cpp"
+		},
+		"/Game/Blueprints/Tools/BP_DeployableShield.BP_DeployableShield_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Tools/BP_DeployableShield.BP_DeployableShield_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_DeployableShield__pf3911806087.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_DeployableShield__pf3911806087.cpp"
+		},
+		"/Game/Blueprints/Playground/BP_TargetDummy.BP_TargetDummy_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/Playground/BP_TargetDummy.BP_TargetDummy_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_TargetDummy__pf2041431817.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_TargetDummy__pf2041431817.cpp"
+		},
+		"/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_Sky_Sphere__pf1379775596.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_Sky_Sphere__pf1379775596.cpp"
+		},
+		"/Game/Blueprints/GrabbableObject.GrabbableObject_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/Blueprints/GrabbableObject.GrabbableObject_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/GrabbableObject__pf2132744816.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/GrabbableObject__pf2132744816.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_PickupCubeTEST.BP_PickupCubeTEST_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_PickupCubeTEST.BP_PickupCubeTEST_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PickupCubeTEST__pf563933975.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PickupCubeTEST__pf563933975.cpp"
+		},
+		"/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C":
+		{
+			"assetType": "Class'/Script/Engine.Blueprint'",
+			"targetObjPath": "/Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube_C",
+			"generatedHeaderPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Public/BP_PickupCube__pf563933975.h",
+			"generatedCppPath": "I:/Fall2021/Cavalry/CavalryProject/Intermediate/Plugins/NativizedAssets/Windows/Game/Source/NativizedAssets/Private/BP_PickupCube__pf563933975.cpp"
+		}
+	},
+	"unconvertedDependencies":
+	{
+	},
+	"nativizationOptions":
+	{
+		"platformName": "WindowsNoEditor",
+		"serverOnlyPlatform": false,
+		"clientOnlyPlatform": false,
+		"bExcludeMonolithicHeaders": false,
+		"excludedModules": [],
+		"excludedAssets": [],
+		"excludedFolderPaths": []
+	}
+}

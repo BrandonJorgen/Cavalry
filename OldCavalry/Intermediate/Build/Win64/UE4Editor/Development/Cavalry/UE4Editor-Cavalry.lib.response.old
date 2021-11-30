@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Cavalry.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\Repositories\Cavalry\OldCavalry\Intermediate\Build\Win64\CavalryEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"F:\Repositories\Cavalry\OldCavalry\Intermediate\Build\Win64\UE4Editor\Development\Cavalry\Cavalry.cpp.obj"
+"F:\Repositories\Cavalry\OldCavalry\Intermediate\Build\Win64\UE4Editor\Development\Cavalry\Default.rc2.res"
+/OUT:"F:\Repositories\Cavalry\OldCavalry\Intermediate\Build\Win64\UE4Editor\Development\Cavalry\UE4Editor-Cavalry.lib"
+/INCLUDE:IMPLEMENT_MODULE_Cavalry

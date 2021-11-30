@@ -1,0 +1,127 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FPoseLink;
+#ifdef NATIVIZEDASSETS_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_generated_h
+#error "ABP_Tool_ShieldBase_Whitebox_01__pf2439319826.generated.h already included, missing '#pragma once' in ABP_Tool_ShieldBase_Whitebox_01__pf2439319826.h"
+#endif
+#define NATIVIZEDASSETS_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_generated_h
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_SPARSE_DATA
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Tool_ShieldBase_Whitebox_01_AnimGraphNode_TransitionResult_03690FC74761D2799AFCABBC1FC316B9__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Tool_ShieldBase_Whitebox_01_AnimGraphNode_TransitionResult_03690FC74761D2799AFCABBC1FC316B9__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_EVENT_PARMS \
+	struct ABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826_eventbpf__BlueprintUpdateAnimation__pf_Parms \
+	{ \
+		float bpp__DeltaTimeX__pf; \
+	};
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_CALLBACK_WRAPPERS \
+	void eventbpf__BlueprintUpdateAnimation__pf(float bpp__DeltaTimeX__pf); \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(); \
+	friend struct Z_Construct_UClass_UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826_Statics; \
+public: \
+	DECLARE_CLASS(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/Meshes/Placeholder/War/ABP_Tool_ShieldBase_Whitebox_01"), NO_API) \
+	DECLARE_SERIALIZER(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_INCLASS \
+private: \
+	static void StaticRegisterNativesUABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(); \
+	friend struct Z_Construct_UClass_UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826_Statics; \
+public: \
+	DECLARE_CLASS(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/Meshes/Placeholder/War/ABP_Tool_ShieldBase_Whitebox_01"), NO_API) \
+	DECLARE_SERIALIZER(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826&&); \
+	NO_API UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(const UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826&); \
+public:
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826&&); \
+	NO_API UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826(const UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_PRIVATE_PROPERTY_OFFSET
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_12_PROLOG \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_EVENT_PARMS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_RPC_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_INCLASS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_INCLASS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h_16_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class UABP_Tool_ShieldBase_Whitebox_01_C__pf2439319826>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Tool_ShieldBase_Whitebox_01__pf2439319826_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,1012 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "NativizedAssets/Public/BP_Tool_Base__pf3911806087.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeBP_Tool_Base__pf3911806087() {}
+// Cross Module References
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	INPUTCORE_API UEnum* Z_Construct_UEnum_InputCore_EControllerHand();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UGrabbableObjectSocket_C__pf2132744816_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister();
+	NATIVIZEDASSETS_API UEnum* Z_Construct_UEnum_NativizedAssets_E__ENUM_ObjectType__pf();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBPI_ToolControls_C_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBPI_GrabbableObj_C_NoRegister();
+// End Cross Module References
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__ActivateTool__pf)
+	{
+		P_GET_UBOOL(Z_Param_bpp__Active__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__ActivateTool__pf(Z_Param_bpp__Active__pf);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__Magnetize__pf)
+	{
+		P_GET_OBJECT(AActor,Z_Param_bpp__Magnet__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Magnetize__pf(Z_Param_bpp__Magnet__pf);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OverlappedComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_PROPERTY(FIntProperty,Z_Param_bpp__OtherBodyIndex__pf);
+		P_GET_UBOOL(Z_Param_bpp__bFromSweep__pf);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf(Z_Param_bpp__OverlappedComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__OtherBodyIndex__pf,Z_Param_bpp__bFromSweep__pf,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OverlappedComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_PROPERTY(FIntProperty,Z_Param_bpp__OtherBodyIndex__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf(Z_Param_bpp__OverlappedComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__OtherBodyIndex__pf);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__Grab__pf)
+	{
+		P_GET_PROPERTY(FNameProperty,Z_Param_bpp__HandSocket__pf);
+		P_GET_OBJECT(USceneComponent,Z_Param_bpp__AttachToMe__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__Actor__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Grab__pf(Z_Param_bpp__HandSocket__pf,Z_Param_bpp__AttachToMe__pf,Z_Param_bpp__Actor__pf);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__Activate__pf)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Activate__pf();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_Tool_Base_C__pf3911806087::execbpf__Release__pf)
+	{
+		P_GET_ENUM(EControllerHand,Z_Param_bpp__NewParam__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Release__pf(EControllerHand(Z_Param_bpp__NewParam__pf));
+		P_NATIVE_END;
+	}
+	static FName NAME_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf = FName(TEXT("ActivateTool"));
+	void ABP_Tool_Base_C__pf3911806087::eventbpf__ActivateTool__pf(bool bpp__Active__pf)
+	{
+		BP_Tool_Base_C__pf3911806087_eventbpf__ActivateTool__pf_Parms Parms;
+		Parms.bpp__Active__pf=bpp__Active__pf ? true : false;
+		ProcessEvent(FindFunctionChecked(NAME_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf),&Parms);
+	}
+	static FName NAME_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf = FName(TEXT("Grab"));
+	void ABP_Tool_Base_C__pf3911806087::eventbpf__Grab__pf(FName bpp__HandSocket__pf, USceneComponent* bpp__AttachToMe__pf, AActor* bpp__Actor__pf)
+	{
+		BP_Tool_Base_C__pf3911806087_eventbpf__Grab__pf_Parms Parms;
+		Parms.bpp__HandSocket__pf=bpp__HandSocket__pf;
+		Parms.bpp__AttachToMe__pf=bpp__AttachToMe__pf;
+		Parms.bpp__Actor__pf=bpp__Actor__pf;
+		ProcessEvent(FindFunctionChecked(NAME_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf),&Parms);
+	}
+	static FName NAME_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf = FName(TEXT("Release"));
+	void ABP_Tool_Base_C__pf3911806087::eventbpf__Release__pf(EControllerHand bpp__NewParam__pf)
+	{
+		BP_Tool_Base_C__pf3911806087_eventbpf__Release__pf_Parms Parms;
+		Parms.bpp__NewParam__pf=bpp__NewParam__pf;
+		ProcessEvent(FindFunctionChecked(NAME_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf),&Parms);
+	}
+	void ABP_Tool_Base_C__pf3911806087::StaticRegisterNativesABP_Tool_Base_C__pf3911806087()
+	{
+		UClass* Class = ABP_Tool_Base_C__pf3911806087::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "Activate", &ABP_Tool_Base_C__pf3911806087::execbpf__Activate__pf },
+			{ "ActivateTool", &ABP_Tool_Base_C__pf3911806087::execbpf__ActivateTool__pf },
+			{ "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature", &ABP_Tool_Base_C__pf3911806087::execbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf },
+			{ "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature", &ABP_Tool_Base_C__pf3911806087::execbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf },
+			{ "Grab", &ABP_Tool_Base_C__pf3911806087::execbpf__Grab__pf },
+			{ "Magnetize", &ABP_Tool_Base_C__pf3911806087::execbpf__Magnetize__pf },
+			{ "Release", &ABP_Tool_Base_C__pf3911806087::execbpf__Release__pf },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Activate" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "Activate", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Activate" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics
+	{
+		static void NewProp_bpp__Active__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpp__Active__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::NewProp_bpp__Active__pf_SetBit(void* Obj)
+	{
+		((BP_Tool_Base_C__pf3911806087_eventbpf__ActivateTool__pf_Parms*)Obj)->bpp__Active__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::NewProp_bpp__Active__pf = { "bpp__Active__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient, 1, sizeof(bool), sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__ActivateTool__pf_Parms), &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::NewProp_bpp__Active__pf_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::NewProp_bpp__Active__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "CppFromBpEvent", "" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "ActivateTool" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "ActivateTool", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__ActivateTool__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "ActivateTool" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__OverlappedComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			int32 bpp__OtherBodyIndex__pf;
+			bool bpp__bFromSweep__pf;
+			FHitResult bpp__SweepResult__pf__const;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OverlappedComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpp__OtherBodyIndex__pf;
+		static void NewProp_bpp__bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpp__bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__SweepResult__pf__const_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bpp__SweepResult__pf__const;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf = { "bpp__OverlappedComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf = { "bpp__OtherBodyIndex__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherBodyIndex__pf), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit(void* Obj)
+	{
+		((BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms*)Obj)->bpp__bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf = { "bpp__bFromSweep__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient, 1, sizeof(bool), sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const = { "bpp__SweepResult__pf__const", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__SweepResult__pf__const), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__OverlappedComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			int32 bpp__OtherBodyIndex__pf;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OverlappedComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpp__OtherBodyIndex__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf = { "bpp__OverlappedComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf = { "bpp__OtherBodyIndex__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherBodyIndex__pf), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics
+	{
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_bpp__HandSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__AttachToMe__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__AttachToMe__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__Actor__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__HandSocket__pf = { "bpp__HandSocket__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__Grab__pf_Parms, bpp__HandSocket__pf), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf = { "bpp__AttachToMe__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__Grab__pf_Parms, bpp__AttachToMe__pf), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__Actor__pf = { "bpp__Actor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__Grab__pf_Parms, bpp__Actor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__HandSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::NewProp_bpp__Actor__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "CppFromBpEvent", "" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Grab" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "Grab", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__Grab__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Grab" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics
+	{
+		struct BP_Tool_Base_C__pf3911806087_eventbpf__Magnetize__pf_Parms
+		{
+			AActor* bpp__Magnet__pf;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__Magnet__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::NewProp_bpp__Magnet__pf = { "bpp__Magnet__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__Magnetize__pf_Parms, bpp__Magnet__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::NewProp_bpp__Magnet__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Magnetize" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "Magnetize", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__Magnetize__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Magnetize" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics
+	{
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_bpp__NewParam__pf_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_bpp__NewParam__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf = { "bpp__NewParam__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_Tool_Base_C__pf3911806087_eventbpf__Release__pf_Parms, bpp__NewParam__pf), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "CppFromBpEvent", "" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Release" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, nullptr, "Release", nullptr, nullptr, sizeof(BP_Tool_Base_C__pf3911806087_eventbpf__Release__pf_Parms), Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Release" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_NoRegister()
+	{
+		return ABP_Tool_Base_C__pf3911806087::StaticClass();
+	}
+	struct Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__GrabbableObjectSocket__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__GrabbableObjectSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__MagnetCollision__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__MagnetCollision__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__Tool_SkM__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__Tool_SkM__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__toolActivated__pf_MetaData[];
+#endif
+		static void NewProp_bpv__toolActivated__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpv__toolActivated__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__isGrabbed__pf_MetaData[];
+#endif
+		static void NewProp_bpv__isGrabbed__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpv__isGrabbed__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__ClosestMount__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__ClosestMount__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__OverlappingMagnets__pf_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__OverlappingMagnets__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_bpv__OverlappingMagnets__pf;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_bpv__ToolxObjectxType__pfTT_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__ToolxObjectxType__pfTT_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_bpv__ToolxObjectxType__pfTT;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__OnMagnetMount__pf_MetaData[];
+#endif
+		static void NewProp_bpv__OnMagnetMount__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpv__OnMagnetMount__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__MagnetMount__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__MagnetMount__pf;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_b0l__K2Node_Event_NewParam__pf_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_NewParam__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_b0l__K2Node_Event_NewParam__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_Active__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_Event_Active__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_Event_Active__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Array_Index_Variable__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Array_Index_Variable__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_CustomEvent_Magnet__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_CustomEvent_Magnet__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_DynamicCast_bSuccess__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__CallFunc_Array_Get_Item__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__CallFunc_Array_Get_Item__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_b0l__K2Node_Event_HandSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_Event_AttachToMe__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_Actor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_Event_Actor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Loop_Counter_Variable__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Loop_Counter_Variable__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Activate__pf, "Activate" }, // 1519360500
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__ActivateTool__pf, "ActivateTool" }, // 948570081
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" }, // 3498945081
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature__pf, "BndEvt__BP_AmmoBase_MagnetCollision_K2Node_ComponentBoundEvent_3_ComponentEndOverlapSignature__DelegateSignature" }, // 182942176
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Grab__pf, "Grab" }, // 875670797
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Magnetize__pf, "Magnetize" }, // 318746435
+		{ &Z_Construct_UFunction_ABP_Tool_Base_C__pf3911806087_bpf__Release__pf, "Release" }, // 2089699714
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IncludePath", "BP_Tool_Base__pf3911806087.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
+		{ "OverrideNativeName", "BP_Tool_Base_C" },
+		{ "ReplaceConverted", "/Game/Blueprints/Tools/BP_Tool_Base.BP_Tool_Base_C" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "GrabbableObjectSocket" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__GrabbableObjectSocket__pf = { "GrabbableObjectSocket", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__GrabbableObjectSocket__pf), Z_Construct_UClass_UGrabbableObjectSocket_C__pf2132744816_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetCollision__pf_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "MagnetCollision" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetCollision__pf = { "MagnetCollision", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__MagnetCollision__pf), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetCollision__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetCollision__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__Tool_SkM__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Tool_SkM" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__Tool_SkM__pf = { "Tool_SkM", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__Tool_SkM__pf), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__Tool_SkM__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__Tool_SkM__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Tool Activated" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "toolActivated" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->bpv__toolActivated__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf = { "toolActivated", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Is Grabbed" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "isGrabbed" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->bpv__isGrabbed__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf = { "isGrabbed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ClosestMount__pf_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "DisplayName", "Closest Mount" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "ClosestMount" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ClosestMount__pf = { "ClosestMount", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__ClosestMount__pf), Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ClosestMount__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ClosestMount__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf_Inner = { "bpv__OverlappingMagnets__pf", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "DisplayName", "Overlapping Magnets" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "OverlappingMagnets" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf = { "OverlappingMagnets", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__OverlappingMagnets__pf), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "DisplayName", "Tool Object Type" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "Tool Object Type" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT = { "Tool Object Type", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__ToolxObjectxType__pfTT), Z_Construct_UEnum_NativizedAssets_E__ENUM_ObjectType__pf, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "DisplayName", "On Magnet Mount" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "OnMagnetMount" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->bpv__OnMagnetMount__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf = { "OnMagnetMount", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetMount__pf_MetaData[] = {
+		{ "Category", "Mag Mount" },
+		{ "DisplayName", "Magnet Mount" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "MagnetMount" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetMount__pf = { "MagnetMount", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, bpv__MagnetMount__pf), Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetMount__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetMount__pf_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_Event_NewParam" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf = { "K2Node_Event_NewParam", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_Event_NewParam__pf), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_Event_Active" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->b0l__K2Node_Event_Active__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf = { "K2Node_Event_Active", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Array_Index_Variable__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Temp_int_Array_Index_Variable" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Array_Index_Variable__pf = { "Temp_int_Array_Index_Variable", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__Temp_int_Array_Index_Variable__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Array_Index_Variable__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Array_Index_Variable__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_CustomEvent_Magnet__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_CustomEvent_Magnet" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_CustomEvent_Magnet__pf = { "K2Node_CustomEvent_Magnet", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_CustomEvent_Magnet__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_CustomEvent_Magnet__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_CustomEvent_Magnet__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OverlappedComponent_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf = { "K2Node_ComponentBoundEvent_OverlappedComponent_1", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf = { "K2Node_ComponentBoundEvent_OtherActor_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf = { "K2Node_ComponentBoundEvent_OtherComp_1", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherBodyIndex_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf = { "K2Node_ComponentBoundEvent_OtherBodyIndex_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_bFromSweep" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = { "K2Node_ComponentBoundEvent_bFromSweep", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_SweepResult" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf = { "K2Node_ComponentBoundEvent_SweepResult", nullptr, (EPropertyFlags)0x0010008000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_SweepResult__pf), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OverlappedComponent" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf = { "K2Node_ComponentBoundEvent_OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf = { "K2Node_ComponentBoundEvent_OtherActor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf = { "K2Node_ComponentBoundEvent_OtherComp", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherBodyIndex" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf = { "K2Node_ComponentBoundEvent_OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_AsBP_Magnetic_Placement" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf = { "K2Node_DynamicCast_AsBP_Magnetic_Placement", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf), Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_bSuccess" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->b0l__K2Node_DynamicCast_bSuccess__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf = { "K2Node_DynamicCast_bSuccess", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_AsBP_Magnetic_Placement_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf = { "K2Node_DynamicCast_AsBP_Magnetic_Placement_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf), Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_bSuccess_1" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_SetBit(void* Obj)
+	{
+		((ABP_Tool_Base_C__pf3911806087*)Obj)->b0l__K2Node_DynamicCast_bSuccess_1__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf = { "K2Node_DynamicCast_bSuccess_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_Tool_Base_C__pf3911806087), &Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__CallFunc_Array_Get_Item__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "CallFunc_Array_Get_Item" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__CallFunc_Array_Get_Item__pf = { "CallFunc_Array_Get_Item", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__CallFunc_Array_Get_Item__pf), Z_Construct_UClass_ABP_MagneticPlacement_C__pf3911806087_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__CallFunc_Array_Get_Item__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__CallFunc_Array_Get_Item__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_Event_HandSocket" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf = { "K2Node_Event_HandSocket", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_Event_HandSocket__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_Event_AttachToMe" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf = { "K2Node_Event_AttachToMe", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_Event_AttachToMe__pf), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "K2Node_Event_Actor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Actor__pf = { "K2Node_Event_Actor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__K2Node_Event_Actor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Loop_Counter_Variable__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_Tool_Base__pf3911806087.h" },
+		{ "OverrideNativeName", "Temp_int_Loop_Counter_Variable" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Loop_Counter_Variable__pf = { "Temp_int_Loop_Counter_Variable", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_Tool_Base_C__pf3911806087, b0l__Temp_int_Loop_Counter_Variable__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Loop_Counter_Variable__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Loop_Counter_Variable__pf_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__GrabbableObjectSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetCollision__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__Tool_SkM__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__toolActivated__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__isGrabbed__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ClosestMount__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OverlappingMagnets__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__ToolxObjectxType__pfTT,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__OnMagnetMount__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_bpv__MagnetMount__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_NewParam__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Active__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Array_Index_Variable__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_CustomEvent_Magnet__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_AsBP_Magnetic_Placement_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__CallFunc_Array_Get_Item__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__K2Node_Event_Actor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::NewProp_b0l__Temp_int_Loop_Counter_Variable__pf,
+	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UBPI_ToolControls_C_NoRegister, (int32)VTABLE_OFFSET(ABP_Tool_Base_C__pf3911806087, IBPI_ToolControls_C), false },
+			{ Z_Construct_UClass_UBPI_GrabbableObj_C_NoRegister, (int32)VTABLE_OFFSET(ABP_Tool_Base_C__pf3911806087, IBPI_GrabbableObj_C), false },
+		};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<ABP_Tool_Base_C__pf3911806087>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::ClassParams = {
+		&ABP_Tool_Base_C__pf3911806087::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::PropPointers,
+		InterfaceParams,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::PropPointers),
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x008000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087()
+	{
+		UPackage* OuterPackage = FindOrConstructDynamicTypePackage(TEXT("/Game/Blueprints/Tools/BP_Tool_Base"));
+		UClass* OuterClass = Cast<UClass>(StaticFindObjectFast(UClass::StaticClass(), OuterPackage, TEXT("BP_Tool_Base_C")));
+		if (!OuterClass || !(OuterClass->ClassFlags & CLASS_Constructed))
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_DYNAMIC_CLASS(ABP_Tool_Base_C__pf3911806087, TEXT("BP_Tool_Base_C"), 977945477);
+	template<> NATIVIZEDASSETS_API UClass* StaticClass<ABP_Tool_Base_C__pf3911806087>()
+	{
+		return ABP_Tool_Base_C__pf3911806087::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABP_Tool_Base_C__pf3911806087(Z_Construct_UClass_ABP_Tool_Base_C__pf3911806087, &ABP_Tool_Base_C__pf3911806087::StaticClass, TEXT("/Game/Blueprints/Tools/BP_Tool_Base"), TEXT("BP_Tool_Base_C"), true, TEXT("/Game/Blueprints/Tools/BP_Tool_Base"), TEXT("/Game/Blueprints/Tools/BP_Tool_Base.BP_Tool_Base_C"), nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABP_Tool_Base_C__pf3911806087);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif

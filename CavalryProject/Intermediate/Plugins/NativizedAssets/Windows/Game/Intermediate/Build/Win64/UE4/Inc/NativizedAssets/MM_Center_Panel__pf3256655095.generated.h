@@ -1,0 +1,154 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef NATIVIZEDASSETS_MM_Center_Panel__pf3256655095_generated_h
+#error "MM_Center_Panel__pf3256655095.generated.h already included, missing '#pragma once' in MM_Center_Panel__pf3256655095.h"
+#endif
+#define NATIVIZEDASSETS_MM_Center_Panel__pf3256655095_generated_h
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_23_DELEGATE \
+struct MM_Center_Panel_C__pf3256655095_eventOnLevelSelected__pf__Widget_LevelSelect_Button_C__pf__SinglecastDelegate_Parms \
+{ \
+	int32 bpp__Index__pf; \
+}; \
+static inline void FOnLevelSelected__pf__Widget_LevelSelect_Button_C__pf__SinglecastDelegate_DelegateWrapper(const FScriptDelegate& OnLevelSelected__pf__Widget_LevelSelect_Button_C__pf__SinglecastDelegate, int32 bpp__Index__pf) \
+{ \
+	MM_Center_Panel_C__pf3256655095_eventOnLevelSelected__pf__Widget_LevelSelect_Button_C__pf__SinglecastDelegate_Parms Parms; \
+	Parms.bpp__Index__pf=bpp__Index__pf; \
+	OnLevelSelected__pf__Widget_LevelSelect_Button_C__pf__SinglecastDelegate.ProcessDelegate<UObject>(&Parms); \
+}
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_21_DELEGATE \
+struct MM_Center_Panel_C__pf3256655095_eventOnCharacterSelected__pf__Widget_CharacterSelect_Button_C__pf__SinglecastDelegate_Parms \
+{ \
+	int32 bpp__Index__pf; \
+}; \
+static inline void FOnCharacterSelected__pf__Widget_CharacterSelect_Button_C__pf__SinglecastDelegate_DelegateWrapper(const FScriptDelegate& OnCharacterSelected__pf__Widget_CharacterSelect_Button_C__pf__SinglecastDelegate, int32 bpp__Index__pf) \
+{ \
+	MM_Center_Panel_C__pf3256655095_eventOnCharacterSelected__pf__Widget_CharacterSelect_Button_C__pf__SinglecastDelegate_Parms Parms; \
+	Parms.bpp__Index__pf=bpp__Index__pf; \
+	OnCharacterSelected__pf__Widget_CharacterSelect_Button_C__pf__SinglecastDelegate.ProcessDelegate<UObject>(&Parms); \
+}
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_SPARSE_DATA
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__SetSelectedCharacterIndex__pf); \
+	DECLARE_FUNCTION(execbpf__SetSelectedLevelIndex__pf); \
+	DECLARE_FUNCTION(execbpf__Construct__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__MM_Center_Panel_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__NewLevelSelected__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__MM_Center_Panel_Button_StartSelectedLevel_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__NewCharacterSelected__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__SetSelectedCharacterIndex__pf); \
+	DECLARE_FUNCTION(execbpf__SetSelectedLevelIndex__pf); \
+	DECLARE_FUNCTION(execbpf__Construct__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__MM_Center_Panel_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__NewLevelSelected__pf); \
+	DECLARE_FUNCTION(execbpf__BndEvt__MM_Center_Panel_Button_StartSelectedLevel_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature__pf); \
+	DECLARE_FUNCTION(execbpf__NewCharacterSelected__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_EVENT_PARMS
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_CALLBACK_WRAPPERS \
+	void eventbpf__Construct__pf(); \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUMM_Center_Panel_C__pf3256655095(); \
+	friend struct Z_Construct_UClass_UMM_Center_Panel_C__pf3256655095_Statics; \
+public: \
+	DECLARE_CLASS(UMM_Center_Panel_C__pf3256655095, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Game/HUD/Main_Menu/MM_Center_Panel"), NO_API) \
+	DECLARE_SERIALIZER(UMM_Center_Panel_C__pf3256655095) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUMM_Center_Panel_C__pf3256655095(); \
+	friend struct Z_Construct_UClass_UMM_Center_Panel_C__pf3256655095_Statics; \
+public: \
+	DECLARE_CLASS(UMM_Center_Panel_C__pf3256655095, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Game/HUD/Main_Menu/MM_Center_Panel"), NO_API) \
+	DECLARE_SERIALIZER(UMM_Center_Panel_C__pf3256655095) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UMM_Center_Panel_C__pf3256655095(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMM_Center_Panel_C__pf3256655095) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMM_Center_Panel_C__pf3256655095); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMM_Center_Panel_C__pf3256655095); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMM_Center_Panel_C__pf3256655095(UMM_Center_Panel_C__pf3256655095&&); \
+	NO_API UMM_Center_Panel_C__pf3256655095(const UMM_Center_Panel_C__pf3256655095&); \
+public:
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UMM_Center_Panel_C__pf3256655095(UMM_Center_Panel_C__pf3256655095&&); \
+	NO_API UMM_Center_Panel_C__pf3256655095(const UMM_Center_Panel_C__pf3256655095&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UMM_Center_Panel_C__pf3256655095); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UMM_Center_Panel_C__pf3256655095); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UMM_Center_Panel_C__pf3256655095)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_PRIVATE_PROPERTY_OFFSET
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_15_PROLOG \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_EVENT_PARMS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_RPC_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_INCLASS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_INCLASS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h_19_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class UMM_Center_Panel_C__pf3256655095>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_MM_Center_Panel__pf3256655095_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

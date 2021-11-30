@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"D:\hajj\HajjExperience\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
+"D:\hajj\HajjExperience\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp.obj"
+"D:\hajj\HajjExperience\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\PCLaunch.rc.res"
+/OUT:"D:\hajj\HajjExperience\Plugins\KatDataPlugin4BP\Binaries\Win64\UE4-KatDataPlugin4BP.lib"

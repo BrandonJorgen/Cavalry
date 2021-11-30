@@ -1,0 +1,151 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FKey;
+#ifdef NATIVIZEDASSETS_BP_CavalryController__pf1490413170_generated_h
+#error "BP_CavalryController__pf1490413170.generated.h already included, missing '#pragma once' in BP_CavalryController__pf1490413170.h"
+#endif
+#define NATIVIZEDASSETS_BP_CavalryController__pf1490413170_generated_h
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_SPARSE_DATA
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_10__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_9__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_8__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_7__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerLeft_K2Node_InputActionEvent_6__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerLeft_K2Node_InputActionEvent_5__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerRight_K2Node_InputActionEvent_4__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerRight_K2Node_InputActionEvent_3__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryButtonRight_K2Node_InputActionEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_SecondaryButtonRight_K2Node_InputActionEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryButtonLeft_K2Node_InputActionEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_X_K2Node_InputAxisEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_Y_K2Node_InputAxisEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbRight_X_K2Node_InputAxisEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_10__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabLeft_K2Node_InputActionEvent_9__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_8__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_GrabRight_K2Node_InputActionEvent_7__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerLeft_K2Node_InputActionEvent_6__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerLeft_K2Node_InputActionEvent_5__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerRight_K2Node_InputActionEvent_4__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryTriggerRight_K2Node_InputActionEvent_3__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryButtonRight_K2Node_InputActionEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_SecondaryButtonRight_K2Node_InputActionEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpActEvt_PrimaryButtonLeft_K2Node_InputActionEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_X_K2Node_InputAxisEvent_0__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbLeft_Y_K2Node_InputAxisEvent_1__pf); \
+	DECLARE_FUNCTION(execbpf__InpAxisEvt_MotionControllerThumbRight_X_K2Node_InputAxisEvent_2__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_EVENT_PARMS \
+	struct BP_CavalryController_C__pf1490413170_eventbpf__ReceiveTick__pf_Parms \
+	{ \
+		float bpp__DeltaSeconds__pf; \
+	};
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_CALLBACK_WRAPPERS \
+	void eventbpf__ReceiveBeginPlay__pf(); \
+ \
+	void eventbpf__ReceiveTick__pf(float bpp__DeltaSeconds__pf); \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesABP_CavalryController_C__pf1490413170(); \
+	friend struct Z_Construct_UClass_ABP_CavalryController_C__pf1490413170_Statics; \
+public: \
+	DECLARE_CLASS(ABP_CavalryController_C__pf1490413170, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/Blueprints/Characters/BP_CavalryController"), NO_API) \
+	DECLARE_SERIALIZER(ABP_CavalryController_C__pf1490413170)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_INCLASS \
+private: \
+	static void StaticRegisterNativesABP_CavalryController_C__pf1490413170(); \
+	friend struct Z_Construct_UClass_ABP_CavalryController_C__pf1490413170_Statics; \
+public: \
+	DECLARE_CLASS(ABP_CavalryController_C__pf1490413170, APlayerController, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/Blueprints/Characters/BP_CavalryController"), NO_API) \
+	DECLARE_SERIALIZER(ABP_CavalryController_C__pf1490413170)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ABP_CavalryController_C__pf1490413170(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABP_CavalryController_C__pf1490413170) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABP_CavalryController_C__pf1490413170); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABP_CavalryController_C__pf1490413170); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ABP_CavalryController_C__pf1490413170(ABP_CavalryController_C__pf1490413170&&); \
+	NO_API ABP_CavalryController_C__pf1490413170(const ABP_CavalryController_C__pf1490413170&); \
+public:
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ABP_CavalryController_C__pf1490413170(ABP_CavalryController_C__pf1490413170&&); \
+	NO_API ABP_CavalryController_C__pf1490413170(const ABP_CavalryController_C__pf1490413170&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABP_CavalryController_C__pf1490413170); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABP_CavalryController_C__pf1490413170); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABP_CavalryController_C__pf1490413170)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_PRIVATE_PROPERTY_OFFSET
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_13_PROLOG \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_EVENT_PARMS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_RPC_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_INCLASS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_INCLASS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h_17_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class ABP_CavalryController_C__pf1490413170>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_BP_CavalryController__pf1490413170_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

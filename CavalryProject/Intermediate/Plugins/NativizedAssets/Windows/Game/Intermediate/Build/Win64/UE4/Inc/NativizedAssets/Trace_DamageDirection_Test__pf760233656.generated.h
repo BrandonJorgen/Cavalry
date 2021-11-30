@@ -1,0 +1,156 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
+#ifdef NATIVIZEDASSETS_Trace_DamageDirection_Test__pf760233656_generated_h
+#error "Trace_DamageDirection_Test__pf760233656.generated.h already included, missing '#pragma once' in Trace_DamageDirection_Test__pf760233656.h"
+#endif
+#define NATIVIZEDASSETS_Trace_DamageDirection_Test__pf760233656_generated_h
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_20_DELEGATE \
+struct Trace_DamageDirection_Test_C__pf760233656_eventGetxDamagexDirectionxTest__pfTTT__Trace_DamageDirection_Test_C__pf__MulticastDelegate_Parms \
+{ \
+	FVector bpp__Direction__pf; \
+}; \
+static inline void FGetxDamagexDirectionxTest__pfTTT__Trace_DamageDirection_Test_C__pf__MulticastDelegate_DelegateWrapper(const FMulticastScriptDelegate& GetxDamagexDirectionxTest__pfTTT__Trace_DamageDirection_Test_C__pf__MulticastDelegate, FVector bpp__Direction__pf) \
+{ \
+	Trace_DamageDirection_Test_C__pf760233656_eventGetxDamagexDirectionxTest__pfTTT__Trace_DamageDirection_Test_C__pf__MulticastDelegate_Parms Parms; \
+	Parms.bpp__Direction__pf=bpp__Direction__pf; \
+	GetxDamagexDirectionxTest__pfTTT__Trace_DamageDirection_Test_C__pf__MulticastDelegate.ProcessMulticastDelegate<UObject>(&Parms); \
+}
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_SPARSE_DATA
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__Player_Was_Hit__pf); \
+	DECLARE_FUNCTION(execbpf__Damage_Source__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteUbergraph_Trace_DamageDirection_Test__pf_0);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__Player_Was_Hit__pf); \
+	DECLARE_FUNCTION(execbpf__Damage_Source__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveBeginPlay__pf); \
+	DECLARE_FUNCTION(execbpf__ReceiveTick__pf); \
+	DECLARE_FUNCTION(execbpf__ExecuteUbergraph_Trace_DamageDirection_Test__pf_0);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_EVENT_PARMS \
+	struct Trace_DamageDirection_Test_C__pf760233656_eventbpf__Damage_Source__pf_Parms \
+	{ \
+		FVector bpp__Source__pf; \
+	}; \
+	struct Trace_DamageDirection_Test_C__pf760233656_eventbpf__Player_Was_Hit__pf_Parms \
+	{ \
+		bool bpp__CurrentlyHit__pf; \
+	}; \
+	struct Trace_DamageDirection_Test_C__pf760233656_eventbpf__ReceiveTick__pf_Parms \
+	{ \
+		float bpp__DeltaSeconds__pf; \
+	};
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_CALLBACK_WRAPPERS \
+	void eventbpf__Damage_Source__pf(FVector bpp__Source__pf); \
+ \
+	void eventbpf__Player_Was_Hit__pf(bool bpp__CurrentlyHit__pf); \
+ \
+	void eventbpf__ReceiveBeginPlay__pf(); \
+ \
+	void eventbpf__ReceiveTick__pf(float bpp__DeltaSeconds__pf); \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesATrace_DamageDirection_Test_C__pf760233656(); \
+	friend struct Z_Construct_UClass_ATrace_DamageDirection_Test_C__pf760233656_Statics; \
+public: \
+	DECLARE_CLASS(ATrace_DamageDirection_Test_C__pf760233656, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection_Test"), NO_API) \
+	DECLARE_SERIALIZER(ATrace_DamageDirection_Test_C__pf760233656) \
+	virtual UObject* _getUObject() const override { return const_cast<ATrace_DamageDirection_Test_C__pf760233656*>(this); }
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_INCLASS \
+private: \
+	static void StaticRegisterNativesATrace_DamageDirection_Test_C__pf760233656(); \
+	friend struct Z_Construct_UClass_ATrace_DamageDirection_Test_C__pf760233656_Statics; \
+public: \
+	DECLARE_CLASS(ATrace_DamageDirection_Test_C__pf760233656, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Game/HUD/Widgets/Damage_Display/Trace_DamageDirection_Test"), NO_API) \
+	DECLARE_SERIALIZER(ATrace_DamageDirection_Test_C__pf760233656) \
+	virtual UObject* _getUObject() const override { return const_cast<ATrace_DamageDirection_Test_C__pf760233656*>(this); }
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ATrace_DamageDirection_Test_C__pf760233656(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATrace_DamageDirection_Test_C__pf760233656) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATrace_DamageDirection_Test_C__pf760233656); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrace_DamageDirection_Test_C__pf760233656); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ATrace_DamageDirection_Test_C__pf760233656(ATrace_DamageDirection_Test_C__pf760233656&&); \
+	NO_API ATrace_DamageDirection_Test_C__pf760233656(const ATrace_DamageDirection_Test_C__pf760233656&); \
+public:
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ATrace_DamageDirection_Test_C__pf760233656(ATrace_DamageDirection_Test_C__pf760233656&&); \
+	NO_API ATrace_DamageDirection_Test_C__pf760233656(const ATrace_DamageDirection_Test_C__pf760233656&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ATrace_DamageDirection_Test_C__pf760233656); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATrace_DamageDirection_Test_C__pf760233656); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATrace_DamageDirection_Test_C__pf760233656)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_PRIVATE_PROPERTY_OFFSET
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_14_PROLOG \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_EVENT_PARMS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_RPC_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_INCLASS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_INCLASS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h_18_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class ATrace_DamageDirection_Test_C__pf760233656>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_Trace_DamageDirection_Test__pf760233656_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

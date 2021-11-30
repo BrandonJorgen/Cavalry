@@ -1,0 +1,523 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "NativizedAssets/Public/BP_HostageTest__pf4081514875.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeBP_HostageTest__pf4081514875() {}
+// Cross Module References
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_HostageTest_C__pf4081514875();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBPI_GameStateCommunication_C_NoRegister();
+// End Cross Module References
+	DEFINE_FUNCTION(ABP_HostageTest_C__pf4081514875::execbpf__DisableHostage__pf)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__DisableHostage__pf();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_HostageTest_C__pf4081514875::execbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__HitComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_STRUCT(FVector,Z_Param_bpp__NormalImpulse__pf);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_bpp__Hit__pf__const);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf(Z_Param_bpp__HitComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__NormalImpulse__pf,Z_Param_Out_bpp__Hit__pf__const);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_HostageTest_C__pf4081514875::execbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OverlappedComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_PROPERTY(FIntProperty,Z_Param_bpp__OtherBodyIndex__pf);
+		P_GET_UBOOL(Z_Param_bpp__bFromSweep__pf);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf(Z_Param_bpp__OverlappedComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__OtherBodyIndex__pf,Z_Param_bpp__bFromSweep__pf,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_NATIVE_END;
+	}
+	void ABP_HostageTest_C__pf4081514875::StaticRegisterNativesABP_HostageTest_C__pf4081514875()
+	{
+		UClass* Class = ABP_HostageTest_C__pf4081514875::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature", &ABP_HostageTest_C__pf4081514875::execbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf },
+			{ "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature", &ABP_HostageTest_C__pf4081514875::execbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf },
+			{ "DisableHostage", &ABP_HostageTest_C__pf4081514875::execbpf__DisableHostage__pf },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__HitComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			FVector bpp__NormalImpulse__pf;
+			FHitResult bpp__Hit__pf__const;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__HitComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__HitComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bpp__NormalImpulse__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__Hit__pf__const_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bpp__Hit__pf__const;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__HitComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__HitComponent__pf = { "bpp__HitComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms, bpp__HitComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__HitComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__HitComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__NormalImpulse__pf = { "bpp__NormalImpulse__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms, bpp__NormalImpulse__pf), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__Hit__pf__const_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__Hit__pf__const = { "bpp__Hit__pf__const", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms, bpp__Hit__pf__const), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__Hit__pf__const_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__Hit__pf__const_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__HitComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__NormalImpulse__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::NewProp_bpp__Hit__pf__const,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_HostageTest_C__pf4081514875, nullptr, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00C20400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_HostageTest_C__pf4081514875();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__OverlappedComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			int32 bpp__OtherBodyIndex__pf;
+			bool bpp__bFromSweep__pf;
+			FHitResult bpp__SweepResult__pf__const;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OverlappedComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpp__OtherBodyIndex__pf;
+		static void NewProp_bpp__bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpp__bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__SweepResult__pf__const_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bpp__SweepResult__pf__const;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf = { "bpp__OverlappedComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf = { "bpp__OtherBodyIndex__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherBodyIndex__pf), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit(void* Obj)
+	{
+		((BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms*)Obj)->bpp__bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf = { "bpp__bFromSweep__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient, 1, sizeof(bool), sizeof(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), &Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const = { "bpp__SweepResult__pf__const", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__SweepResult__pf__const), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_HostageTest_C__pf4081514875, nullptr, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_HostageTest_C__pf4081514875_eventbpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_HostageTest_C__pf4081514875();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "DisableHostage" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_HostageTest_C__pf4081514875, nullptr, "DisableHostage", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient, (EFunctionFlags)0x04020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_HostageTest_C__pf4081514875();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "DisableHostage" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_NoRegister()
+	{
+		return ABP_HostageTest_C__pf4081514875::StaticClass();
+	}
+	struct Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__Hostage_SM__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__Hostage_SM__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__DefaultSceneRoot__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__DefaultSceneRoot__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FInterfacePropertyParams NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_DynamicCast_bSuccess__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature__pf, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature" }, // 3182081241
+		{ &Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature__pf, "BndEvt__BP_HostageTest_Hostage_SM_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature" }, // 945007227
+		{ &Z_Construct_UFunction_ABP_HostageTest_C__pf4081514875_bpf__DisableHostage__pf, "DisableHostage" }, // 1622049727
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IncludePath", "BP_HostageTest__pf4081514875.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
+		{ "OverrideNativeName", "BP_HostageTest_C" },
+		{ "ReplaceConverted", "/Game/Blueprints/LF-19/BP_HostageTest.BP_HostageTest_C" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__Hostage_SM__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "Hostage_SM" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__Hostage_SM__pf = { "Hostage_SM", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, bpv__Hostage_SM__pf), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__Hostage_SM__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__Hostage_SM__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__DefaultSceneRoot__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "DefaultSceneRoot" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__DefaultSceneRoot__pf = { "DefaultSceneRoot", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, bpv__DefaultSceneRoot__pf), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__DefaultSceneRoot__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__DefaultSceneRoot__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OverlappedComponent" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf = { "K2Node_ComponentBoundEvent_OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf = { "K2Node_ComponentBoundEvent_OtherActor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf = { "K2Node_ComponentBoundEvent_OtherComp", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherBodyIndex" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf = { "K2Node_ComponentBoundEvent_OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_bFromSweep" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj)
+	{
+		((ABP_HostageTest_C__pf4081514875*)Obj)->b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = { "K2Node_ComponentBoundEvent_bFromSweep", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_HostageTest_C__pf4081514875), &Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_SweepResult" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf = { "K2Node_ComponentBoundEvent_SweepResult", nullptr, (EPropertyFlags)0x0010008000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_SweepResult__pf), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_HitComponent" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf = { "K2Node_ComponentBoundEvent_HitComponent", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_HitComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf = { "K2Node_ComponentBoundEvent_OtherActor_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf = { "K2Node_ComponentBoundEvent_OtherComp_1", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_NormalImpulse" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf = { "K2Node_ComponentBoundEvent_NormalImpulse", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_Hit" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf = { "K2Node_ComponentBoundEvent_Hit", nullptr, (EPropertyFlags)0x0010008000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_ComponentBoundEvent_Hit__pf), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_AsBPI_Game_State_Communication" },
+	};
+#endif
+	const UE4CodeGen_Private::FInterfacePropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf = { "K2Node_DynamicCast_AsBPI_Game_State_Communication", nullptr, (EPropertyFlags)0x0014000000202000, UE4CodeGen_Private::EPropertyGenFlags::Interface, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_HostageTest_C__pf4081514875, b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf), Z_Construct_UClass_UBPI_GameStateCommunication_C_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_HostageTest__pf4081514875.h" },
+		{ "OverrideNativeName", "K2Node_DynamicCast_bSuccess" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit(void* Obj)
+	{
+		((ABP_HostageTest_C__pf4081514875*)Obj)->b0l__K2Node_DynamicCast_bSuccess__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf = { "K2Node_DynamicCast_bSuccess", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_HostageTest_C__pf4081514875), &Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__Hostage_SM__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_bpv__DefaultSceneRoot__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_HitComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_NormalImpulse__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_Hit__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_AsBPI_Game_State_Communication__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::NewProp_b0l__K2Node_DynamicCast_bSuccess__pf,
+	};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<ABP_HostageTest_C__pf4081514875>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::ClassParams = {
+		&ABP_HostageTest_C__pf4081514875::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::PropPointers,
+		nullptr,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::PropPointers),
+		0,
+		0x008000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_ABP_HostageTest_C__pf4081514875()
+	{
+		UPackage* OuterPackage = FindOrConstructDynamicTypePackage(TEXT("/Game/Blueprints/LF-19/BP_HostageTest"));
+		UClass* OuterClass = Cast<UClass>(StaticFindObjectFast(UClass::StaticClass(), OuterPackage, TEXT("BP_HostageTest_C")));
+		if (!OuterClass || !(OuterClass->ClassFlags & CLASS_Constructed))
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_ABP_HostageTest_C__pf4081514875_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_DYNAMIC_CLASS(ABP_HostageTest_C__pf4081514875, TEXT("BP_HostageTest_C"), 1601381841);
+	template<> NATIVIZEDASSETS_API UClass* StaticClass<ABP_HostageTest_C__pf4081514875>()
+	{
+		return ABP_HostageTest_C__pf4081514875::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABP_HostageTest_C__pf4081514875(Z_Construct_UClass_ABP_HostageTest_C__pf4081514875, &ABP_HostageTest_C__pf4081514875::StaticClass, TEXT("/Game/Blueprints/LF-19/BP_HostageTest"), TEXT("BP_HostageTest_C"), true, TEXT("/Game/Blueprints/LF-19/BP_HostageTest"), TEXT("/Game/Blueprints/LF-19/BP_HostageTest.BP_HostageTest_C"), nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABP_HostageTest_C__pf4081514875);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif

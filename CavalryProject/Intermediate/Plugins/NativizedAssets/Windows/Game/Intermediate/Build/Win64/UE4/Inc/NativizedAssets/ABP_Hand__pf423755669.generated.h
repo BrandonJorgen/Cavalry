@@ -1,0 +1,153 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FPoseLink;
+#ifdef NATIVIZEDASSETS_ABP_Hand__pf423755669_generated_h
+#error "ABP_Hand__pf423755669.generated.h already included, missing '#pragma once' in ABP_Hand__pf423755669.h"
+#endif
+#define NATIVIZEDASSETS_ABP_Hand__pf423755669_generated_h
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_SPARSE_DATA
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_E3D4A37D4642D9A4BE276CBB7EAE6B16__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_82BA86A34AA11A3040DB619383A89CB1__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_4528F0E4407B55CCCE2A33BFEEF474CD__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_F3553F9E494F245EDCA0C8AB8F84016A__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_DECF184347CFA701FA88BFAB3EC3162B__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_DBAD76C74BABB28D69835C95A3066AEA__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_5AE22EDF48F8C75CDEF0AFBF2CF97D53__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_E1CF62F347860646112E3AA3452E6285__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_4ED61E8E458915B89BB45CBD60421A59__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_9ED7C4C54EC247F38C0EC3AA5BBE45C7__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_D8F1A59E463D7C4D7F6169B534BF925F__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_B725B8B542BDB9D732D9F9BD6B5E6F61__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintBeginPlay__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execbpf__AnimGraph__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_E3D4A37D4642D9A4BE276CBB7EAE6B16__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_82BA86A34AA11A3040DB619383A89CB1__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_4528F0E4407B55CCCE2A33BFEEF474CD__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_F3553F9E494F245EDCA0C8AB8F84016A__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_DECF184347CFA701FA88BFAB3EC3162B__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_DBAD76C74BABB28D69835C95A3066AEA__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_5AE22EDF48F8C75CDEF0AFBF2CF97D53__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_E1CF62F347860646112E3AA3452E6285__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_4ED61E8E458915B89BB45CBD60421A59__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_9ED7C4C54EC247F38C0EC3AA5BBE45C7__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_D8F1A59E463D7C4D7F6169B534BF925F__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintUpdateAnimation__pf); \
+	DECLARE_FUNCTION(execbpf__EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_Hand_AnimGraphNode_TransitionResult_B725B8B542BDB9D732D9F9BD6B5E6F61__pf); \
+	DECLARE_FUNCTION(execbpf__BlueprintBeginPlay__pf);
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_EVENT_PARMS \
+	struct ABP_Hand_C__pf423755669_eventbpf__BlueprintUpdateAnimation__pf_Parms \
+	{ \
+		float bpp__DeltaTimeX__pf; \
+	};
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_CALLBACK_WRAPPERS \
+	void eventbpf__BlueprintBeginPlay__pf(); \
+ \
+	void eventbpf__BlueprintUpdateAnimation__pf(float bpp__DeltaTimeX__pf); \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUABP_Hand_C__pf423755669(); \
+	friend struct Z_Construct_UClass_UABP_Hand_C__pf423755669_Statics; \
+public: \
+	DECLARE_CLASS(UABP_Hand_C__pf423755669, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/Meshes/Placeholder/Player_Generic/ABP_Hand"), NO_API) \
+	DECLARE_SERIALIZER(UABP_Hand_C__pf423755669) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_INCLASS \
+private: \
+	static void StaticRegisterNativesUABP_Hand_C__pf423755669(); \
+	friend struct Z_Construct_UClass_UABP_Hand_C__pf423755669_Statics; \
+public: \
+	DECLARE_CLASS(UABP_Hand_C__pf423755669, UAnimInstance, COMPILED_IN_FLAGS(0 | CLASS_Transient), CASTCLASS_None, TEXT("/Game/Meshes/Placeholder/Player_Generic/ABP_Hand"), NO_API) \
+	DECLARE_SERIALIZER(UABP_Hand_C__pf423755669) \
+	static const TCHAR* StaticConfigName() {return TEXT("Engine");} \
+
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API UABP_Hand_C__pf423755669(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABP_Hand_C__pf423755669) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABP_Hand_C__pf423755669); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABP_Hand_C__pf423755669); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UABP_Hand_C__pf423755669(UABP_Hand_C__pf423755669&&); \
+	NO_API UABP_Hand_C__pf423755669(const UABP_Hand_C__pf423755669&); \
+public:
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API UABP_Hand_C__pf423755669(UABP_Hand_C__pf423755669&&); \
+	NO_API UABP_Hand_C__pf423755669(const UABP_Hand_C__pf423755669&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UABP_Hand_C__pf423755669); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UABP_Hand_C__pf423755669); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UABP_Hand_C__pf423755669)
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_PRIVATE_PROPERTY_OFFSET
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_15_PROLOG \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_EVENT_PARMS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_RPC_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_INCLASS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_PRIVATE_PROPERTY_OFFSET \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_SPARSE_DATA \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_CALLBACK_WRAPPERS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_INCLASS_NO_PURE_DECLS \
+	CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h_19_ENHANCED_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> NATIVIZEDASSETS_API UClass* StaticClass<class UABP_Hand_C__pf423755669>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID CavalryProject_Intermediate_Plugins_NativizedAssets_Windows_Game_Source_NativizedAssets_Public_ABP_Hand__pf423755669_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

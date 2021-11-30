@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Cavalry.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{1EBBFB28-BEA9-4E3A-A5AF-5426EFECFD35}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Cavalry.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CavalryEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1ACEF745-213E-4663-A93C-9A3829B17F8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Cavalry">
+      <UniqueIdentifier>{27722E1C-5776-4619-9A14-72FCB00F67F2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Cavalry\Cavalry.Build.cs">
+      <Filter>Source\Cavalry</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\Cavalry\Cavalry.h">
+      <Filter>Source\Cavalry</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cavalry\Cavalry.cpp">
+      <Filter>Source\Cavalry</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cavalry\testclass.h">
+      <Filter>Source\Cavalry</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cavalry\testclass.cpp">
+      <Filter>Source\Cavalry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

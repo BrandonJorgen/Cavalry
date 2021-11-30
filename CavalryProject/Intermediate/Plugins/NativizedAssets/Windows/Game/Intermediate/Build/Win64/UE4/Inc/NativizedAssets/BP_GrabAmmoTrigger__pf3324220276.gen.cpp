@@ -1,0 +1,870 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "UObject/GeneratedCppIncludes.h"
+#include "NativizedAssets/Public/BP_GrabAmmoTrigger__pf3324220276.h"
+#ifdef _MSC_VER
+#pragma warning (push)
+#pragma warning (disable : 4883)
+#endif
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+void EmptyLinkFunctionForGeneratedCodeBP_GrabAmmoTrigger__pf3324220276() {}
+// Cross Module References
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_NoRegister();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	INPUTCORE_API UEnum* Z_Construct_UEnum_InputCore_EControllerHand();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UGrabbableObjectSocket_C__pf2132744816_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
+	NATIVIZEDASSETS_API UEnum* Z_Construct_UEnum_NativizedAssets_E__E_LoadType__pf();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
+	NATIVIZEDASSETS_API UClass* Z_Construct_UClass_UBPI_GrabbableObj_C_NoRegister();
+// End Cross Module References
+	DEFINE_FUNCTION(ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__Release__pf)
+	{
+		P_GET_ENUM(EControllerHand,Z_Param_bpp__NewParam__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Release__pf(EControllerHand(Z_Param_bpp__NewParam__pf));
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OverlappedComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_PROPERTY(FIntProperty,Z_Param_bpp__OtherBodyIndex__pf);
+		P_GET_UBOOL(Z_Param_bpp__bFromSweep__pf);
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf(Z_Param_bpp__OverlappedComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__OtherBodyIndex__pf,Z_Param_bpp__bFromSweep__pf,Z_Param_Out_bpp__SweepResult__pf__const);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__Grab__pf)
+	{
+		P_GET_PROPERTY(FNameProperty,Z_Param_bpp__HandSocket__pf);
+		P_GET_OBJECT(USceneComponent,Z_Param_bpp__AttachToMe__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__Actor__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__Grab__pf(Z_Param_bpp__HandSocket__pf,Z_Param_bpp__AttachToMe__pf,Z_Param_bpp__Actor__pf);
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__ReceiveBeginPlay__pf)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__ReceiveBeginPlay__pf();
+		P_NATIVE_END;
+	}
+	DEFINE_FUNCTION(ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OverlappedComponent__pf);
+		P_GET_OBJECT(AActor,Z_Param_bpp__OtherActor__pf);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_bpp__OtherComp__pf);
+		P_GET_PROPERTY(FIntProperty,Z_Param_bpp__OtherBodyIndex__pf);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf(Z_Param_bpp__OverlappedComponent__pf,Z_Param_bpp__OtherActor__pf,Z_Param_bpp__OtherComp__pf,Z_Param_bpp__OtherBodyIndex__pf);
+		P_NATIVE_END;
+	}
+	static FName NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf = FName(TEXT("Grab"));
+	void ABP_GrabAmmoTrigger_C__pf3324220276::eventbpf__Grab__pf(FName bpp__HandSocket__pf, USceneComponent* bpp__AttachToMe__pf, AActor* bpp__Actor__pf)
+	{
+		BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Grab__pf_Parms Parms;
+		Parms.bpp__HandSocket__pf=bpp__HandSocket__pf;
+		Parms.bpp__AttachToMe__pf=bpp__AttachToMe__pf;
+		Parms.bpp__Actor__pf=bpp__Actor__pf;
+		ProcessEvent(FindFunctionChecked(NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf),&Parms);
+	}
+	static FName NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf = FName(TEXT("ReceiveBeginPlay"));
+	void ABP_GrabAmmoTrigger_C__pf3324220276::eventbpf__ReceiveBeginPlay__pf()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf),NULL);
+	}
+	static FName NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf = FName(TEXT("Release"));
+	void ABP_GrabAmmoTrigger_C__pf3324220276::eventbpf__Release__pf(EControllerHand bpp__NewParam__pf)
+	{
+		BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Release__pf_Parms Parms;
+		Parms.bpp__NewParam__pf=bpp__NewParam__pf;
+		ProcessEvent(FindFunctionChecked(NAME_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf),&Parms);
+	}
+	void ABP_GrabAmmoTrigger_C__pf3324220276::StaticRegisterNativesABP_GrabAmmoTrigger_C__pf3324220276()
+	{
+		UClass* Class = ABP_GrabAmmoTrigger_C__pf3324220276::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature", &ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf },
+			{ "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature", &ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf },
+			{ "Grab", &ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__Grab__pf },
+			{ "ReceiveBeginPlay", &ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__ReceiveBeginPlay__pf },
+			{ "Release", &ABP_GrabAmmoTrigger_C__pf3324220276::execbpf__Release__pf },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__OverlappedComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			int32 bpp__OtherBodyIndex__pf;
+			bool bpp__bFromSweep__pf;
+			FHitResult bpp__SweepResult__pf__const;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OverlappedComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpp__OtherBodyIndex__pf;
+		static void NewProp_bpp__bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpp__bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__SweepResult__pf__const_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bpp__SweepResult__pf__const;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf = { "bpp__OverlappedComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf = { "bpp__OtherBodyIndex__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherBodyIndex__pf), METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit(void* Obj)
+	{
+		((BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms*)Obj)->bpp__bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf = { "bpp__bFromSweep__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient, 1, sizeof(bool), sizeof(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf_SetBit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const = { "bpp__SweepResult__pf__const", nullptr, (EPropertyFlags)0x0010008008000182, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms, bpp__SweepResult__pf__const), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__SweepResult__pf__const,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, nullptr, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00420400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics
+	{
+		struct BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms
+		{
+			UPrimitiveComponent* bpp__OverlappedComponent__pf;
+			AActor* bpp__OtherActor__pf;
+			UPrimitiveComponent* bpp__OtherComp__pf;
+			int32 bpp__OtherBodyIndex__pf;
+		};
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OverlappedComponent__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__OtherComp__pf;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpp__OtherBodyIndex__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf = { "bpp__OverlappedComponent__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf = { "bpp__OtherActor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf = { "bpp__OtherComp__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf = { "bpp__OtherBodyIndex__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms, bpp__OtherBodyIndex__pf), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::NewProp_bpp__OtherBodyIndex__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, nullptr, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature", nullptr, nullptr, sizeof(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Parms), Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x00020400, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics
+	{
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_bpp__HandSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpp__AttachToMe__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__AttachToMe__pf;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpp__Actor__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__HandSocket__pf = { "bpp__HandSocket__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Grab__pf_Parms, bpp__HandSocket__pf), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf = { "bpp__AttachToMe__pf", nullptr, (EPropertyFlags)0x0010000000080080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Grab__pf_Parms, bpp__AttachToMe__pf), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__Actor__pf = { "bpp__Actor__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Grab__pf_Parms, bpp__Actor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__HandSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__AttachToMe__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::NewProp_bpp__Actor__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "CppFromBpEvent", "" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Grab" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, nullptr, "Grab", nullptr, nullptr, sizeof(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Grab__pf_Parms), Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Grab" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "/** Event when play begins for this actor. */" },
+		{ "CppFromBpEvent", "" },
+		{ "DisplayName", "BeginPlay" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "ReceiveBeginPlay" },
+		{ "ToolTip", "Event when play begins for this actor." },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, nullptr, "ReceiveBeginPlay", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient, (EFunctionFlags)0x00020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "ReceiveBeginPlay" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics
+	{
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_bpp__NewParam__pf_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_bpp__NewParam__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf = { "bpp__NewParam__pf", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient, 1, STRUCT_OFFSET(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Release__pf_Parms, bpp__NewParam__pf), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::NewProp_bpp__NewParam__pf,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::Function_MetaDataParams[] = {
+		{ "Category", "" },
+		{ "CppFromBpEvent", "" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Release" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, nullptr, "Release", nullptr, nullptr, sizeof(BP_GrabAmmoTrigger_C__pf3324220276_eventbpf__Release__pf_Parms), Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::PropPointers), RF_Public|RF_Transient, (EFunctionFlags)0x04020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf()
+	{
+		UObject* Outer = Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276();
+		UFunction* ReturnFunction = static_cast<UFunction*>(StaticFindObjectFast( UFunction::StaticClass(), Outer, "Release" ));
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	UClass* Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_NoRegister()
+	{
+		return ABP_GrabAmmoTrigger_C__pf3324220276::StaticClass();
+	}
+	struct Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics
+	{
+		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
+#endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__GrabbableObjectSocket__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__GrabbableObjectSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__Trigger__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__Trigger__pf;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_bpv__AmmoToSpawn__pf_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__AmmoToSpawn__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_bpv__AmmoToSpawn__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__LoadTypeCount__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpv__LoadTypeCount__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__SpawnedAmmo__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_bpv__SpawnedAmmo__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__canSpawn__pf_MetaData[];
+#endif
+		static void NewProp_bpv__canSpawn__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bpv__canSpawn__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bpv__NumberOfHandsInTrigger__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_bpv__NumberOfHandsInTrigger__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable__pf;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_b0l__K2Node_Event_NewParam__pf_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_NewParam__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_b0l__K2Node_Event_NewParam__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_b0l__K2Node_Event_HandSocket__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_Event_AttachToMe__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_Event_Actor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_Event_Actor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_MetaData[];
+#endif
+		static void NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_1__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_1__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_2__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_2__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_3__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_3__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_4__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_4__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_5__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_5__pf;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_b0l__Temp_int_Variable_6__pf_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_b0l__Temp_int_Variable_6__pf;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
+		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
+		static const UE4CodeGen_Private::FClassParams ClassParams;
+	};
+	UObject* (*const Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_AActor,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature__pf, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature" }, // 950874435
+		{ &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature__pf, "BndEvt__BP_GrabAmmoTrigger_Trigger_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature" }, // 4063435897
+		{ &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Grab__pf, "Grab" }, // 1973839343
+		{ &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__ReceiveBeginPlay__pf, "ReceiveBeginPlay" }, // 2528440244
+		{ &Z_Construct_UFunction_ABP_GrabAmmoTrigger_C__pf3324220276_bpf__Release__pf, "Release" }, // 3005307108
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
+		{ "IncludePath", "BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "IsBlueprintBase", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
+		{ "OverrideNativeName", "BP_GrabAmmoTrigger_C" },
+		{ "ReplaceConverted", "/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger.BP_GrabAmmoTrigger_C" },
+	};
+#endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "GrabbableObjectSocket" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__GrabbableObjectSocket__pf = { "GrabbableObjectSocket", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__GrabbableObjectSocket__pf), Z_Construct_UClass_UGrabbableObjectSocket_C__pf2132744816_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__GrabbableObjectSocket__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__Trigger__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Trigger" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__Trigger__pf = { "Trigger", nullptr, (EPropertyFlags)0x001000040008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__Trigger__pf), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__Trigger__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__Trigger__pf_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Ammo to Spawn" },
+		{ "ExposeOnSpawn", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "AmmoToSpawn" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf = { "AmmoToSpawn", nullptr, (EPropertyFlags)0x0011000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__AmmoToSpawn__pf), Z_Construct_UEnum_NativizedAssets_E__E_LoadType__pf, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__LoadTypeCount__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Load Type Count" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "LoadTypeCount" },
+		{ "tooltip", "How many Shells/Magazines the Horseman is carrying" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__LoadTypeCount__pf = { "LoadTypeCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__LoadTypeCount__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__LoadTypeCount__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__LoadTypeCount__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__SpawnedAmmo__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Spawned Ammo" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "SpawnedAmmo" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__SpawnedAmmo__pf = { "SpawnedAmmo", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__SpawnedAmmo__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__SpawnedAmmo__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__SpawnedAmmo__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Can Spawn" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "canSpawn" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf_SetBit(void* Obj)
+	{
+		((ABP_GrabAmmoTrigger_C__pf3324220276*)Obj)->bpv__canSpawn__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf = { "canSpawn", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_GrabAmmoTrigger_C__pf3324220276), &Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__NumberOfHandsInTrigger__pf_MetaData[] = {
+		{ "Category", "Default" },
+		{ "DisplayName", "Number Of Hands in Trigger" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "MultiLine", "true" },
+		{ "OverrideNativeName", "NumberOfHandsInTrigger" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__NumberOfHandsInTrigger__pf = { "NumberOfHandsInTrigger", nullptr, (EPropertyFlags)0x0010000000010005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, bpv__NumberOfHandsInTrigger__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__NumberOfHandsInTrigger__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__NumberOfHandsInTrigger__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable__pf = { "Temp_int_Variable", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable__pf_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_Event_NewParam" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf = { "K2Node_Event_NewParam", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_Event_NewParam__pf), Z_Construct_UEnum_InputCore_EControllerHand, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OverlappedComponent_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf = { "K2Node_ComponentBoundEvent_OverlappedComponent_1", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf = { "K2Node_ComponentBoundEvent_OtherActor_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf = { "K2Node_ComponentBoundEvent_OtherComp_1", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherBodyIndex_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf = { "K2Node_ComponentBoundEvent_OtherBodyIndex_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_bFromSweep" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit(void* Obj)
+	{
+		((ABP_GrabAmmoTrigger_C__pf3324220276*)Obj)->b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf = { "K2Node_ComponentBoundEvent_bFromSweep", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_GrabAmmoTrigger_C__pf3324220276), &Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_SweepResult" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf = { "K2Node_ComponentBoundEvent_SweepResult", nullptr, (EPropertyFlags)0x0010008000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_SweepResult__pf), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_Event_HandSocket" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf = { "K2Node_Event_HandSocket", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_Event_HandSocket__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_Event_AttachToMe" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf = { "K2Node_Event_AttachToMe", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_Event_AttachToMe__pf), Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_Event_Actor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_Actor__pf = { "K2Node_Event_Actor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_Event_Actor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_Actor__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_SwitchEnum_CmpSuccess" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_SetBit(void* Obj)
+	{
+		((ABP_GrabAmmoTrigger_C__pf3324220276*)Obj)->b0l__K2Node_SwitchEnum_CmpSuccess__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf = { "K2Node_SwitchEnum_CmpSuccess", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_GrabAmmoTrigger_C__pf3324220276), &Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "CallFunc_GetTransform_ReturnValue" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf = { "CallFunc_GetTransform_ReturnValue", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__CallFunc_GetTransform_ReturnValue__pf), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_SwitchEnum_CmpSuccess_1" },
+	};
+#endif
+	void Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_SetBit(void* Obj)
+	{
+		((ABP_GrabAmmoTrigger_C__pf3324220276*)Obj)->b0l__K2Node_SwitchEnum_CmpSuccess_1__pf = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf = { "K2Node_SwitchEnum_CmpSuccess_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABP_GrabAmmoTrigger_C__pf3324220276), &Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OverlappedComponent" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf = { "K2Node_ComponentBoundEvent_OverlappedComponent", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherActor" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf = { "K2Node_ComponentBoundEvent_OtherActor", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherActor__pf), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherComp" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf = { "K2Node_ComponentBoundEvent_OtherComp", nullptr, (EPropertyFlags)0x0010000000282008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherComp__pf), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "K2Node_ComponentBoundEvent_OtherBodyIndex" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf = { "K2Node_ComponentBoundEvent_OtherBodyIndex", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_1__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_1" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_1__pf = { "Temp_int_Variable_1", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_1__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_1__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_1__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_2__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_2" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_2__pf = { "Temp_int_Variable_2", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_2__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_2__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_2__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_3__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_3" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_3__pf = { "Temp_int_Variable_3", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_3__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_3__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_3__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_4__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_4" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_4__pf = { "Temp_int_Variable_4", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_4__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_4__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_4__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_5__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_5" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_5__pf = { "Temp_int_Variable_5", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_5__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_5__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_5__pf_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_6__pf_MetaData[] = {
+		{ "ModuleRelativePath", "Public/BP_GrabAmmoTrigger__pf3324220276.h" },
+		{ "OverrideNativeName", "Temp_int_Variable_6" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_6__pf = { "Temp_int_Variable_6", nullptr, (EPropertyFlags)0x0010000000202000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, b0l__Temp_int_Variable_6__pf), METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_6__pf_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_6__pf_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__GrabbableObjectSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__Trigger__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__AmmoToSpawn__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__LoadTypeCount__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__SpawnedAmmo__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__canSpawn__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_bpv__NumberOfHandsInTrigger__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_NewParam__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_bFromSweep__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_SweepResult__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_HandSocket__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_AttachToMe__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_Event_Actor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__CallFunc_GetTransform_ReturnValue__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_SwitchEnum_CmpSuccess_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OverlappedComponent__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherActor__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherComp__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__K2Node_ComponentBoundEvent_OtherBodyIndex__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_1__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_2__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_3__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_4__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_5__pf,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::NewProp_b0l__Temp_int_Variable_6__pf,
+	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UBPI_GrabbableObj_C_NoRegister, (int32)VTABLE_OFFSET(ABP_GrabAmmoTrigger_C__pf3324220276, IBPI_GrabbableObj_C), false },
+		};
+	const FCppClassTypeInfoStatic Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<ABP_GrabAmmoTrigger_C__pf3324220276>::IsAbstract,
+	};
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::ClassParams = {
+		&ABP_GrabAmmoTrigger_C__pf3324220276::StaticClass,
+		"Engine",
+		&StaticCppClassTypeInfo,
+		DependentSingletons,
+		FuncInfo,
+		Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::PropPointers,
+		InterfaceParams,
+		UE_ARRAY_COUNT(DependentSingletons),
+		UE_ARRAY_COUNT(FuncInfo),
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::PropPointers),
+		UE_ARRAY_COUNT(InterfaceParams),
+		0x008000A4u,
+		METADATA_PARAMS(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::Class_MetaDataParams))
+	};
+	UClass* Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276()
+	{
+		UPackage* OuterPackage = FindOrConstructDynamicTypePackage(TEXT("/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger"));
+		UClass* OuterClass = Cast<UClass>(StaticFindObjectFast(UClass::StaticClass(), OuterPackage, TEXT("BP_GrabAmmoTrigger_C")));
+		if (!OuterClass || !(OuterClass->ClassFlags & CLASS_Constructed))
+		{
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276_Statics::ClassParams);
+		}
+		return OuterClass;
+	}
+	IMPLEMENT_DYNAMIC_CLASS(ABP_GrabAmmoTrigger_C__pf3324220276, TEXT("BP_GrabAmmoTrigger_C"), 1077807483);
+	template<> NATIVIZEDASSETS_API UClass* StaticClass<ABP_GrabAmmoTrigger_C__pf3324220276>()
+	{
+		return ABP_GrabAmmoTrigger_C__pf3324220276::StaticClass();
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABP_GrabAmmoTrigger_C__pf3324220276(Z_Construct_UClass_ABP_GrabAmmoTrigger_C__pf3324220276, &ABP_GrabAmmoTrigger_C__pf3324220276::StaticClass, TEXT("/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger"), TEXT("BP_GrabAmmoTrigger_C"), true, TEXT("/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger"), TEXT("/Game/Blueprints/Characters/Gear/BP_GrabAmmoTrigger.BP_GrabAmmoTrigger_C"), nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABP_GrabAmmoTrigger_C__pf3324220276);
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+#ifdef _MSC_VER
+#pragma warning (pop)
+#endif

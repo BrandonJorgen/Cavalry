@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Cavalry",
+			"Path": "I:\\Fall2021\\Cavalry\\Cavalry\\Source\\Cavalry.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CavalryEditor",
+			"Path": "I:\\Fall2021\\Cavalry\\Cavalry\\Source\\CavalryEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

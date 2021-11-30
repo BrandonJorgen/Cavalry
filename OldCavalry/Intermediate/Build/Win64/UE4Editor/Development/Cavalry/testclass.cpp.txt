@@ -1,0 +1,2 @@
+I:\Fall2021\Cavalry\Cavalry\Intermediate\Build\Win64\UE4Editor\Development\Cavalry\Definitions.Cavalry.h
+I:\Fall2021\Cavalry\Cavalry\Source\Cavalry\testclass.h

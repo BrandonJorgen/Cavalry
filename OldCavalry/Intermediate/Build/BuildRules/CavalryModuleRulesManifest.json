@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"I:\\Fall2021\\Cavalry\\OldCavalry\\Source\\Cavalry\\Cavalry.Build.cs",
+		"I:\\Fall2021\\Cavalry\\OldCavalry\\Source\\Cavalry.Target.cs",
+		"I:\\Fall2021\\Cavalry\\OldCavalry\\Source\\CavalryEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
