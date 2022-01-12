@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
+/I C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Inc\KatDataPlugin4BP
-/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source
-/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
+/I C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Inc\KatDataPlugin4BP
+/I C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source
+/I C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -263,12 +263,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp"
-/FI"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
-/Fo"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp.obj"
+/FI"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp"
+/FI"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
+/Fo"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp.obj"
 /TP
 /GR-
 /W4

@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
+/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Inc\KatDataPlugin4BP
-/I D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Source
-/I D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
+/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Inc\KatDataPlugin4BP
+/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source
+/I C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\UE4p\zhuanyi426\Intermediate\Build\Win64\zhuanyi426Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\UE4p\zhuanyi426\Intermediate\Build\Win64\zhuanyi426Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\UE4p\zhuanyi426\Intermediate\Build\Win64\zhuanyi426Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp"
-/FI"D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
-/Fo"D:\UE4p\zhuanyi426\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
+/FI"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp"
+/FI"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
+/Fo"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
 /TP
 /GR-
 /W4

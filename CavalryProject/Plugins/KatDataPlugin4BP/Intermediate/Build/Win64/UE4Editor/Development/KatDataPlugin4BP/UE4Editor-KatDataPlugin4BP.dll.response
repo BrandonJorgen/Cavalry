@@ -33,10 +33,10 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
-"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
-"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp.obj"
-"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Default.rc2.res"
+"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
+"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.gen.cpp.obj"
+"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\Default.rc2.res"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Development\Slate\UE4Editor-Slate.lib"
@@ -66,8 +66,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Binaries\Win64\UE4Editor-KatDataPlugin4BP.dll"
-/IMPLIB:"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\UE4Editor-KatDataPlugin4BP.suppressed.lib"
-/PDB:"C:\Users\Cavalry\Documents\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Binaries\Win64\UE4Editor-KatDataPlugin4BP.pdb"
+/OUT:"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Binaries\Win64\UE4Editor-KatDataPlugin4BP.dll"
+/IMPLIB:"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4Editor\Development\KatDataPlugin4BP\UE4Editor-KatDataPlugin4BP.suppressed.lib"
+/PDB:"C:\Users\Cavalry\Documents\Repository\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Binaries\Win64\UE4Editor-KatDataPlugin4BP.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_KatDataPlugin4BP
