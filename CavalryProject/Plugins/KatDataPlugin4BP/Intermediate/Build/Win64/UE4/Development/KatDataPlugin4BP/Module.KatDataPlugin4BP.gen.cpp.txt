@@ -1,9 +1,9 @@
-I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h
-I:/Fall2021/Cavalry/CavalryProject/Plugins/KatDataPlugin4BP/Intermediate/Build/Win64/UE4/Inc/KatDataPlugin4BP/KatDataPlugin4BP.init.gen.cpp
+I:\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h
+I:/Cavalry/CavalryProject/Plugins/KatDataPlugin4BP/Intermediate/Build/Win64/UE4/Inc/KatDataPlugin4BP/KatDataPlugin4BP.init.gen.cpp
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-I:/Fall2021/Cavalry/CavalryProject/Plugins/KatDataPlugin4BP/Intermediate/Build/Win64/UE4/Inc/KatDataPlugin4BP/KatDataPlugin4BPBPLibrary.gen.cpp
-I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP/Public/KatDataPlugin4BPBPLibrary.h
+I:/Cavalry/CavalryProject/Plugins/KatDataPlugin4BP/Intermediate/Build/Win64/UE4/Inc/KatDataPlugin4BP/KatDataPlugin4BPBPLibrary.gen.cpp
+I:\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP/Public/KatDataPlugin4BPBPLibrary.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Core\Public\Core.h
@@ -682,5 +682,5 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Widgets/I
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\SlateScope.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
-I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public\KatDataCore.h
-I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Inc\KatDataPlugin4BP\KatDataPlugin4BPBPLibrary.generated.h
+I:\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public\KatDataCore.h
+I:\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Inc\KatDataPlugin4BP\KatDataPlugin4BPBPLibrary.generated.h

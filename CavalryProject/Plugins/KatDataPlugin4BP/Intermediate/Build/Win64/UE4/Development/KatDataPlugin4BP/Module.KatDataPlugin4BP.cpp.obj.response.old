@@ -27,7 +27,7 @@
 /wd4244
 /wd4838
 /I .
-/I G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
+/I I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Private
 /I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
 /I Runtime
 /I Runtime\CoreUObject\Public
@@ -328,10 +328,10 @@
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
 /I Runtime\AnimationCore
-/I G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Inc\KatDataPlugin4BP
-/I G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source
-/I G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
-/I G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP
+/I I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Inc\KatDataPlugin4BP
+/I I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source
+/I I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP\Public
+/I I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Source\KatDataPlugin4BP
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -355,18 +355,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"G:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h"
-/Yu"G:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h"
-/Fp"G:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h.pch"
-"G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp"
-/FI"G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
-/Fo"G:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"I:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h"
+/Yu"I:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h"
+/Fp"I:\Fall2021\Cavalry\CavalryProject\Intermediate\Build\Win64\CavalryProject\Development\Engine\SharedPCH.Engine.h.pch"
+"I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp"
+/FI"I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Definitions.KatDataPlugin4BP.h"
+/Fo"I:\Fall2021\Cavalry\CavalryProject\Plugins\KatDataPlugin4BP\Intermediate\Build\Win64\UE4\Development\KatDataPlugin4BP\Module.KatDataPlugin4BP.cpp.obj"
 /TP
 /GR-
 /W4
