@@ -9,10 +9,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "KatDataPlugin4BP",
-			"Enabled": true
-		},
-		{
 			"Name": "MegascansPlugin",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
