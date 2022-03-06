@@ -19,31 +19,6 @@
 			}
 		},
 		{
-			"File": "../../../CavalryProject/Plugins/KatDataPlugin4BP/KatDataPlugin4BP.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 3,
-				"VersionName": "3.0",
-				"FriendlyName": "KatDataPlugin",
-				"Description": "Get Kat Data",
-				"Category": "KatWalk",
-				"CreatedBy": "",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"CanContainContent": true,
-				"Modules": [
-					{
-						"Name": "KatDataPlugin4BP",
-						"Type": "Runtime",
-						"LoadingPhase": "PreLoadingScreen"
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../CavalryProject/Plugins/FMODStudio/FMODStudio.uplugin",
 			"Descriptor": 
 			{
@@ -71,6 +46,74 @@
 						"Name": "FMODStudioEditor",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Marketplace/Substance/Substance.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 70,
+				"VersionName": "4.26.0.21",
+				"FriendlyName": "Substance in UE4",
+				"Description": "Adds support for Substance (sbsar) textures",
+				"Category": "Editor",
+				"CreatedBy": "Substance by Adobe",
+				"CreatedByURL": "https://www.substance3d.com/",
+				"DocsURL": "https://docs.substance3d.com/display/integrations/Unreal+Engine",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/2f6439c2f9584f49809d9b13b16c2ba4",
+				"SupportURL": "",
+				"EngineVersion": "4.26.0",
+				"CanContainContent": true,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "SubstanceCore",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Mac",
+							"Linux",
+							"PS4",
+							"XboxOne"
+						]
+					},
+					{
+						"Name": "SubstanceEditor",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Mac",
+							"Linux"
+						]
+					},
+					{
+						"Name": "SubstanceLink",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Mac",
+							"Linux"
+						]
+					},
+					{
+						"Name": "SubstanceLiveLink",
+						"Type": "Editor",
+						"LoadingPhase": "PostDefault",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Mac",
+							"Linux"
+						]
 					}
 				]
 			}
