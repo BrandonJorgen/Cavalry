@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: FacilityShield.ma
-//Last modified: Wed, Mar 16, 2022 12:09:05 PM
+//Last modified: Wed, Mar 16, 2022 12:20:34 PM
 //Codeset: 1252
 file -rdi 1 -ns "launch_facility" -rfn "launch_facilityRN" -op "v=0;" -typ "mayaAscii"
 		 "F:/Cavalry/Maya Project Files/Env/Facility/launch_facility.ma";
@@ -8,6 +8,7 @@ file -r -ns "launch_facility" -dr 1 -rfn "launch_facilityRN" -op "v=0;" -typ "ma
 		 "F:/Cavalry/Maya Project Files/Env/Facility/launch_facility.ma";
 requires maya "2022";
 requires "stereoCamera" "10.0";
+requires -nodeType "gameFbxExporter" "gameFbxExporter" "1.0";
 requires "mtoa" "4.2.1";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -15,7 +16,7 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22000)";
-fileInfo "UUID" "0ED3DC00-4380-7CC4-852B-D7BFA21FDF23";
+fileInfo "UUID" "76F17EB2-426E-CEEC-096D-C9A1CC0F07C5";
 createNode transform -s -n "persp";
 	rename -uid "70A6925B-463D-2E82-141C-57B1923B55C9";
 	setAttr ".v" no;
@@ -97,7 +98,7 @@ createNode mesh -n "shield_meshShape" -p "shield_mesh";
 	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.61696955561637878 0.62143039703369141 ;
+	setAttr ".pv" -type "double2" 0.5 0.5 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
@@ -105,25 +106,7 @@ createNode mesh -n "shield_meshShape" -p "shield_mesh";
 	setAttr ".cdvm[0]"  0 1 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode fosterParent -n "launch_facilityRNfosterParent1";
-	rename -uid "2D329730-4B34-725C-CF80-13A643B001F5";
-createNode transform -n "transform1" -p "launch_facilityRNfosterParent1";
-	rename -uid "4CC1476C-4166-4701-481D-5D8C2563CD4A";
-	setAttr ".v" no;
-createNode transform -n "polySurface1" -p "launch_facilityRNfosterParent1";
-	rename -uid "CDD89075-4DF7-8CA9-FCC7-F99A3B0C5905";
-	setAttr ".t" -type "double3" 0 0 1.1368683772161603e-16 ;
-createNode mesh -n "polySurfaceShape1" -p "polySurface1";
-	rename -uid "163B402E-4DC1-9985-9165-A1AD8EF0A39E";
-	setAttr -k off ".v";
-	setAttr -s 2 ".iog[0].og";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "map1";
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-	setAttr ".ai_translator" -type "string" "polymesh";
+	rename -uid "D19ACBE0-4941-94B7-1CDE-96B28DA6A642";
 createNode mesh -n "launch_facility:polySurfaceShape22" -p "launch_facilityRNfosterParent1";
 	rename -uid "0913976F-473C-0E8F-9B3B-D39B4746BC43";
 	setAttr -k off ".v";
@@ -339,8 +322,23 @@ createNode mesh -n "launch_facility:polySurfaceShape22" -p "launch_facilityRNfos
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
-createNode transform -n "transform2" -p "launch_facilityRNfosterParent1";
-	rename -uid "653B00E7-4008-47BD-6FF6-098F4C9626BE";
+createNode transform -n "polySurface1" -p "launch_facilityRNfosterParent1";
+	rename -uid "CDD89075-4DF7-8CA9-FCC7-F99A3B0C5905";
+	setAttr ".t" -type "double3" 0 0 1.1368683772161603e-16 ;
+createNode mesh -n "polySurfaceShape1" -p "polySurface1";
+	rename -uid "163B402E-4DC1-9985-9165-A1AD8EF0A39E";
+	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr ".ai_translator" -type "string" "polymesh";
+createNode transform -n "transform1" -p "launch_facilityRNfosterParent1";
+	rename -uid "4CC1476C-4166-4701-481D-5D8C2563CD4A";
 	setAttr ".v" no;
 createNode transform -n "polySurface2" -p "launch_facilityRNfosterParent1";
 	rename -uid "762AE1E2-4FAA-EEDE-863A-A6A570B2465F";
@@ -356,6 +354,9 @@ createNode mesh -n "polySurfaceShape2" -p "polySurface2";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 	setAttr ".ai_translator" -type "string" "polymesh";
+createNode transform -n "transform2" -p "launch_facilityRNfosterParent1";
+	rename -uid "653B00E7-4008-47BD-6FF6-098F4C9626BE";
+	setAttr ".v" no;
 createNode lightLinker -s -n "lightLinker1";
 	rename -uid "7F1743EC-4869-CB37-F58C-E6A8932851BE";
 	setAttr -s 11 ".lnk";
@@ -401,15 +402,15 @@ createNode reference -n "launch_facilityRN";
 		"-s -r "
 		0 "|launch_facility:facility_floor_hole_geo1Shape" "|launch_facilityRNfosterParent1|transform1" 
 		"-s -r "
-		0 "|launch_facilityRNfosterParent1|polySurface2" "|launch_facility:facility_grp|launch_facility:facility_floor_noHole_geo" 
-		"-s -r "
 		0 "|launch_facilityRNfosterParent1|transform2" "|launch_facility:facility_grp|launch_facility:facility_floor_noHole_geo" 
 		"-s -r "
-		0 "|launch_facilityRNfosterParent1|launch_facility:polySurfaceShape22" "|launch_facility:visionary|launch_facility:facility_floor_hole_geo1" 
+		0 "|launch_facilityRNfosterParent1|polySurface2" "|launch_facility:facility_grp|launch_facility:facility_floor_noHole_geo" 
+		"-s -r "
+		0 "|launch_facilityRNfosterParent1|transform1" "|launch_facility:visionary|launch_facility:facility_floor_hole_geo1" 
 		"-s -r "
 		0 "|launch_facilityRNfosterParent1|polySurface1" "|launch_facility:visionary|launch_facility:facility_floor_hole_geo1" 
 		"-s -r "
-		0 "|launch_facilityRNfosterParent1|transform1" "|launch_facility:visionary|launch_facility:facility_floor_hole_geo1" 
+		0 "|launch_facilityRNfosterParent1|launch_facility:polySurfaceShape22" "|launch_facility:visionary|launch_facility:facility_floor_hole_geo1" 
 		"-s -r "
 		2 "|launch_facilityRNfosterParent1|transform2|launch_facility:facility_floor_noHole_geoShape" 
 		"intermediateObject" " 1"
@@ -806,6 +807,35 @@ createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "63F84AE6-4D37-A0AF-0975-6BB06C5722B7";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
+createNode gameFbxExporter -n "gameExporterPreset1";
+	rename -uid "7141EBDF-4574-DF4A-5870-BB961368B936";
+	setAttr ".pn" -type "string" "Model Default";
+	setAttr ".ils" yes;
+	setAttr ".ilu" yes;
+	setAttr ".esi" 2;
+	setAttr ".ski" no;
+	setAttr ".bsh" no;
+	setAttr ".ebm" yes;
+	setAttr ".inc" yes;
+	setAttr ".fv" -type "string" "FBX201800";
+	setAttr ".exp" -type "string" "F:/Cavalry/Maya Project Files/Env/Exports/FacilityShield";
+	setAttr ".exf" -type "string" "facilityShield";
+createNode gameFbxExporter -n "gameExporterPreset2";
+	rename -uid "C2753980-46B4-ABF1-80D9-428AF40C43D3";
+	setAttr ".pn" -type "string" "Anim Default";
+	setAttr ".ils" yes;
+	setAttr ".eti" 2;
+	setAttr ".spt" 2;
+	setAttr ".ic" no;
+	setAttr ".ebm" yes;
+	setAttr ".fv" -type "string" "FBX201800";
+createNode gameFbxExporter -n "gameExporterPreset3";
+	rename -uid "35D706C5-4941-861E-907B-4CAA2C747AB6";
+	setAttr ".pn" -type "string" "TE Anim Default";
+	setAttr ".ils" yes;
+	setAttr ".eti" 3;
+	setAttr ".ebm" yes;
+	setAttr ".fv" -type "string" "FBX201800";
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
