@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: GratedPlatforms.ma
-//Last modified: Fri, Mar 18, 2022 12:07:22 PM
+//Last modified: Fri, Mar 18, 2022 12:24:02 PM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "6350E9F5-48DE-1295-2F84-768388032666";
+fileInfo "UUID" "E1BD5AB7-42A3-D13F-5221-DEBC3D136566";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "0A42560C-4091-36BC-A115-00A351FE9BF0";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 18.881827991256781 44.843294942848679 31.100400105582239 ;
-	setAttr ".r" -type "double3" -53.138174551736824 31347.7994939003 0.00039039129293855787 ;
+	setAttr ".t" -type "double3" 4.0349885022712622 12.088588778730436 2.8935410686238794 ;
+	setAttr ".r" -type "double3" -67.538192649439878 31345.399493883353 0.00038228452594783838 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "C0D250CB-4F55-F89D-E963-D99934D55CD5";
 	setAttr -k off ".v" no;
@@ -28,7 +28,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 54.141758874153055;
+	setAttr ".coi" 19.449011523562316;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -5609,11 +5609,12 @@ createNode mesh -n "GratedFloorShape" -p "|Base|_02|GratedFloor";
 	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "e[2]";
 	setAttr ".gtag[4].gtagnm" -type "string" "rim";
 	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "e[0:3]";
+	setAttr ".pv" -type "double2" 0.29297533631324768 0.14647062122821808 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.29297727 0.19530645
-		 0.14649242 0.19531405 0.14648339 0 0.2929678 -5.6922436e-06 0.2929858 0.39061865
-		 0.1465019 0.39062628 0.29299432 0.58593178 0.14651093 0.58593929 2.6583672e-05 0.58594501
-		 1.7106533e-05 0.39063284 8.5532665e-06 0.1953207 0 7.5995922e-06;
+	setAttr -s 12 ".uvst[0].uvsp[0:11]" -type "float2" 0.19531214 -9.4771385e-06
+		 0.19531976 0.14647537 5.6922436e-06 0.14648438 0 0 0.39062434 -1.7985702e-05 0.39063197
+		 0.14646587 0.58593744 -2.6524067e-05 0.58594501 0.1464569 0.58595067 0.29294115 0.39063853
+		 0.29295069 0.1953264 0.29295924 1.3321638e-05 0.29296777;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
@@ -18349,12 +18350,14 @@ createNode mesh -n "GratedFloorShape" -p "|BarracksOverhang|_03|GratedFloor";
 	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "e[2]";
 	setAttr ".gtag[4].gtagnm" -type "string" "rim";
 	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "e[0:3]";
+	setAttr ".pv" -type "double2" 0.14316794276237488 0.18496246635913849 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 17 ".uvst[0].uvsp[0:16]" -type "float2" 0.28436878 0.16168782
-		 0.14158925 0.16385254 0.14216664 -2.7596951e-05 0.28433409 -5.6892633e-05 0.1432679
-		 -5.0663948e-07 0.14326999 0.14425218 1.4305115e-06 0.14425391 0 0 0.28653738 -2.5331974e-06
-		 0.28653929 0.14425027 0 0 0.20285627 0.36998183 0.14327195 0.28850439 2.592802e-06
-		 0.28850684 0.10083309 0.26799947 0.28654137 0.28850397 -0.0011893213 0.16601765;
+		 0.14158925 0.16385254 0.14216664 -2.7596951e-05 0.28433409 -5.6892633e-05 -0.00098213553
+		 0.14425468 0.14327055 0.14425261 0.14327228 0.28752118 -0.00098159909 0.28752255
+		 -0.00098416209 0.00098519027 0.14326866 0.00098331273 0 0 0.20285627 0.36998183 0.28752273
+		 0.14425063 0.28752521 0.28751999 0.10083309 0.26799947 0.28752235 0.00098122656 -0.0011893213
+		 0.16601765;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
@@ -19597,7 +19600,7 @@ createNode gameFbxExporter -n "gameExporterPreset1";
 	setAttr ".inc" yes;
 	setAttr ".fv" -type "string" "FBX201800";
 	setAttr ".exp" -type "string" "I:/Cavalry/Maya Project Files//Env/Exports/GratedPlatforms";
-	setAttr ".exf" -type "string" "Ramp_02_SM_Low";
+	setAttr ".exf" -type "string" "BarracksOverhang_03_SM_Low";
 createNode gameFbxExporter -n "gameExporterPreset2";
 	rename -uid "D634CDFE-4517-F6FC-008D-6CB946BFD991";
 	setAttr ".pn" -type "string" "Anim Default";
@@ -19677,7 +19680,7 @@ createNode lambert -n "Metal_TS";
 createNode shadingEngine -n "lambert4SG";
 	rename -uid "0204E783-4BBA-F286-1C75-25821D2F5258";
 	setAttr ".ihi" 0;
-	setAttr -s 23 ".dsm";
+	setAttr -s 24 ".dsm";
 	setAttr ".ro" yes;
 createNode materialInfo -n "materialInfo31";
 	rename -uid "E1AC7ED1-4555-6D13-74A5-40ABFA390969";
@@ -19699,29 +19702,32 @@ createNode file -n "file1";
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "place2dTexture1";
 	rename -uid "27AE4AE8-4758-B93F-E897-3F8E5F80C93B";
+	setAttr ".c" -type "float2" 7.8000002 7.8000002 ;
+	setAttr ".re" -type "float2" 7.8000002 7.8000002 ;
 createNode file -n "file2";
 	rename -uid "41F2988D-4D24-3DF2-9FC8-69BC0FD3D239";
 	setAttr ".ftn" -type "string" "I:/Cavalry/Textures/ColorMaps_GratedMetal/grated_metal_basecolor.png";
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "place2dTexture2";
 	rename -uid "BC7C2BC3-4349-B7ED-5877-E8862DA692DA";
+	setAttr ".re" -type "float2" 7.8000002 7.8000002 ;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "F57DA8B4-47E2-110B-A290-FCAA7F06AFA2";
+	rename -uid "57F8A6F1-42BD-5A77-5216-D2B0239F1369";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
-	setAttr ".tgi[0].vl" -type "double2" -1326.1850706320474 -1354.7618509285055 ;
-	setAttr ".tgi[0].vh" -type "double2" 1328.5660229183891 1353.5713747853345 ;
+	setAttr ".tgi[0].vl" -type "double2" -333.61243177830988 -1138.4906743500217 ;
+	setAttr ".tgi[0].vh" -type "double2" 476.52990895256312 33.286277330542561 ;
 	setAttr -s 4 ".tgi[0].ni";
-	setAttr ".tgi[0].ni[0].x" 65.714286804199219;
-	setAttr ".tgi[0].ni[0].y" 68.571426391601562;
+	setAttr ".tgi[0].ni[0].x" -238.57142639160156;
+	setAttr ".tgi[0].ni[0].y" -675.71429443359375;
 	setAttr ".tgi[0].ni[0].nvs" 1923;
-	setAttr ".tgi[0].ni[1].x" -241.42857360839844;
-	setAttr ".tgi[0].ni[1].y" 45.714286804199219;
+	setAttr ".tgi[0].ni[1].x" 68.571426391601562;
+	setAttr ".tgi[0].ni[1].y" -652.85711669921875;
 	setAttr ".tgi[0].ni[1].nvs" 1923;
-	setAttr ".tgi[0].ni[2].x" 68.571426391601562;
-	setAttr ".tgi[0].ni[2].y" -652.85711669921875;
+	setAttr ".tgi[0].ni[2].x" -1.8316867351531982;
+	setAttr ".tgi[0].ni[2].y" 75.101524353027344;
 	setAttr ".tgi[0].ni[2].nvs" 1923;
-	setAttr ".tgi[0].ni[3].x" -238.57142639160156;
-	setAttr ".tgi[0].ni[3].y" -675.71429443359375;
+	setAttr ".tgi[0].ni[3].x" 286.93768310546875;
+	setAttr ".tgi[0].ni[3].y" 76.65264892578125;
 	setAttr ".tgi[0].ni[3].nvs" 1923;
 select -ne :time1;
 	setAttr ".o" 0;
@@ -19919,13 +19925,13 @@ connectAttr "place2dTexture2.vt3" "file2.vt3";
 connectAttr "place2dTexture2.vc1" "file2.vc1";
 connectAttr "place2dTexture2.o" "file2.uv";
 connectAttr "place2dTexture2.ofs" "file2.fs";
-connectAttr "file1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+connectAttr "place2dTexture2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
 		;
-connectAttr "place2dTexture1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+connectAttr "file2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
 		;
-connectAttr "file2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+connectAttr "place2dTexture1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
 		;
-connectAttr "place2dTexture2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+connectAttr "file1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
 		;
 connectAttr "lambert3SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert4SG.pa" ":renderPartition.st" -na;
@@ -19939,5 +19945,4 @@ connectAttr "file2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "SCALEShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "THE_MEASURING_TAPEShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "CORNER_MEASUREShape.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "file2.oc" ":internal_standInShader.ic";
 // End of GratedPlatforms.ma
