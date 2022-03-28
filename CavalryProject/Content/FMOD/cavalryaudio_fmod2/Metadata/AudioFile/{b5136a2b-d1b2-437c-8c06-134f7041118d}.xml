@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b5136a2b-d1b2-437c-8c06-134f7041118d}">
+		<property name="assetPath">
+			<value>Slide_Release_SMG.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.31</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71658c2e-eab9-47ad-8635-92c829977c03}</destination>
+		</relationship>
+	</object>
+</objects>

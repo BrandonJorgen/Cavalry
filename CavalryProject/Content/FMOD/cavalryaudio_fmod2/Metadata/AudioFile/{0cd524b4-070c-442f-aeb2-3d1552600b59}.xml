@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0cd524b4-070c-442f-aeb2-3d1552600b59}">
+		<property name="assetPath">
+			<value>Slide_Click_DMR.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.33333333333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71658c2e-eab9-47ad-8635-92c829977c03}</destination>
+		</relationship>
+	</object>
+</objects>
