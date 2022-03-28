@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{fb465815-4b91-4516-9939-7722de33458c}">
+		<property name="assetPath">
+			<value>Master.bank</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{a078023e-501b-4b6f-84e8-48ac236d5fc1}</destination>
+		</relationship>
+	</object>
+</objects>
