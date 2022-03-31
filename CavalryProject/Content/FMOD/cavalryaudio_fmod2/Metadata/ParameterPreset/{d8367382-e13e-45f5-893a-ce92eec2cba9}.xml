@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d8367382-e13e-45f5-893a-ce92eec2cba9}">
+		<property name="name">
+			<value>Ammo_Pistol</value>
+		</property>
+		<relationship name="folder">
+			<destination>{33d3f0f0-f599-463c-822c-7cbdab42b9fa}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{586a16d4-1ca9-4f0e-a594-e583ee100061}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{586a16d4-1ca9-4f0e-a594-e583ee100061}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>13</value>
+		</property>
+		<property name="initialValue">
+			<value>12</value>
+		</property>
+	</object>
+</objects>
