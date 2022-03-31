@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{703271bc-f936-461c-8bc6-02373c0f41cb}">
+		<property name="name">
+			<value>Deployable Shield</value>
+		</property>
+		<relationship name="folder">
+			<destination>{2a370e18-1be1-4d5f-8ab3-02f2c12d58be}</destination>
+		</relationship>
+	</object>
+</objects>

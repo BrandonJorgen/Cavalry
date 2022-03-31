@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{78837436-9d55-4a88-bb93-f0f17805f7e9}">
+		<property name="name">
+			<value>Ammo_Rifle</value>
+		</property>
+		<relationship name="folder">
+			<destination>{33d3f0f0-f599-463c-822c-7cbdab42b9fa}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e4a7987f-7670-4b29-b816-b44691b07de0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e4a7987f-7670-4b29-b816-b44691b07de0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>31</value>
+		</property>
+		<property name="initialValue">
+			<value>30</value>
+		</property>
+	</object>
+</objects>

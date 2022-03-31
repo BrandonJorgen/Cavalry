@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e4fafab1-64e9-40d0-95b4-dcf95065d08c}">
+		<property name="assetPath">
+			<value>Player_Walk_Dirt_5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71658c2e-eab9-47ad-8635-92c829977c03}</destination>
+		</relationship>
+	</object>
+</objects>
