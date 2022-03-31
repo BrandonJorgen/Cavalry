@@ -4,9 +4,6 @@
 		<property name="isSourceControlForBuiltBanksEnabled">
 			<value>false</value>
 		</property>
-		<property name="builtBanksOutputDirectory">
-			<value>../</value>
-		</property>
 		<relationship name="masterEventFolder">
 			<destination>{56101718-643e-43cc-9873-d51765ce4e65}</destination>
 		</relationship>
