@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: launch_facility_02.ma
-//Last modified: Mon, Apr 04, 2022 07:21:20 PM
+//Last modified: Mon, Apr 04, 2022 07:46:07 PM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -14,12 +14,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 22000)";
-fileInfo "UUID" "8449F65F-4F93-4BEE-6969-9780CCC6F926";
+fileInfo "UUID" "430C479D-4F10-2ED2-0EBB-329003F7A8F7";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "FAE3FC42-4FAD-43F6-CE26-59B4B0313015";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -38.577573816631009 64.400748218883535 131.11568968924695 ;
+	setAttr ".t" -type "double3" -38.577573816631848 64.400748218884132 131.1156896892488 ;
 	setAttr ".r" -type "double3" -375.93835191596958 -6863.7999999802996 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "FBD3644E-42F2-AD35-6D51-E3B0BE6A3D2C";
@@ -27,7 +27,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".fl" 34.999999999999993;
 	setAttr ".ncp" 1;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 153.26139923079128;
+	setAttr ".coi" 153.26139923079364;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
