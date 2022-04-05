@@ -119,6 +119,7 @@
 		<relationship name="effects">
 			<destination>{e11834c4-39e0-48a1-8ef2-4eb9e3dbf15d}</destination>
 			<destination>{a904a8ec-0c2b-4a01-a861-ac47da1d7665}</destination>
+			<destination>{f6b6456b-be4b-427c-abe0-9333d5e8678c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{d7933806-1402-40b9-be7f-1d86bf591668}" />
@@ -136,5 +137,16 @@
 	<object class="MixerBusPanner" id="{ce715f59-3d52-4557-9abf-453b314e94c4}" />
 	<object class="MixerBusFader" id="{e11834c4-39e0-48a1-8ef2-4eb9e3dbf15d}" />
 	<object class="SpatialiserEffect" id="{a904a8ec-0c2b-4a01-a861-ac47da1d7665}" />
+	<object class="MixerSend" id="{f6b6456b-be4b-427c-abe0-9333d5e8678c}">
+		<property name="level">
+			<value>-33</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{e1c64a96-471b-4956-9c2d-9277ca6ae3ed}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{00d9b23f-7a50-4fee-adbf-e7d4591bbd48}" />
 </objects>
