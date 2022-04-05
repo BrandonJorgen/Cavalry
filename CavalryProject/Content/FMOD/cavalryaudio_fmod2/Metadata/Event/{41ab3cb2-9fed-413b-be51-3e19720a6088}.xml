@@ -146,6 +146,7 @@
 		<relationship name="effects">
 			<destination>{a550b233-10c9-4faf-a27b-15d598d21464}</destination>
 			<destination>{bf5b1efb-ae5c-4a2d-873b-c5b1ac0d689e}</destination>
+			<destination>{307c3f10-ae46-46bc-bf76-08096ceae65a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{137ac3ad-e54f-4d74-ae09-784d143e4c84}" />
@@ -167,6 +168,17 @@
 	<object class="MixerBusPanner" id="{32d74ddb-7282-4656-a2c0-c4c89a4c0f82}" />
 	<object class="MixerBusFader" id="{a550b233-10c9-4faf-a27b-15d598d21464}" />
 	<object class="SpatialiserEffect" id="{bf5b1efb-ae5c-4a2d-873b-c5b1ac0d689e}" />
+	<object class="MixerSend" id="{307c3f10-ae46-46bc-bf76-08096ceae65a}">
+		<property name="level">
+			<value>-33</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{e1c64a96-471b-4956-9c2d-9277ca6ae3ed}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{135cc2ca-e9e0-476f-ae47-31248b3988a0}" />
 	<object class="CompressorEffect" id="{86d75e9f-7db3-45d7-94ec-ff3d184b7b3a}">
 		<property name="threshold">
