@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{423d5b64-74c3-4b7b-85d7-0bd9f226c9c2}">
+		<property name="assetPath">
+			<value>Rock_bullet_impact_vr5.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.1171875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71658c2e-eab9-47ad-8635-92c829977c03}</destination>
+		</relationship>
+	</object>
+</objects>

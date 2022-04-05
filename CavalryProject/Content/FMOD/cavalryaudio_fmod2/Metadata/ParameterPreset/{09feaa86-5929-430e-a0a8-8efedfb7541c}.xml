@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{09feaa86-5929-430e-a0a8-8efedfb7541c}">
+		<property name="name">
+			<value>Drone_Location</value>
+		</property>
+		<relationship name="folder">
+			<destination>{33d3f0f0-f599-463c-822c-7cbdab42b9fa}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4fead692-bd89-4321-a6cc-9dcfa0672ae3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4fead692-bd89-4321-a6cc-9dcfa0672ae3}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Outside</value>
+			<value>Inside</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

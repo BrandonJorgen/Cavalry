@@ -118,6 +118,7 @@
 			<destination>{7d4a0a54-4931-4540-b3f1-49c960f9a1bc}</destination>
 			<destination>{68ad0edd-6e61-4518-8756-9106e79c741a}</destination>
 			<destination>{2aebe6d7-ba9d-4a59-a0ca-cb660d4da02f}</destination>
+			<destination>{3c81d767-5794-46c0-9372-df14de24ebce}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87eb50e3-c656-47a7-8e30-1fda76604a3a}" />
@@ -148,6 +149,17 @@
 		<property name="gain">
 			<value>13.5</value>
 		</property>
+	</object>
+	<object class="MixerSend" id="{3c81d767-5794-46c0-9372-df14de24ebce}">
+		<property name="level">
+			<value>-33</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{e1c64a96-471b-4956-9c2d-9277ca6ae3ed}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{42973208-6c35-4691-a34b-c5f5a32e3fc7}" />
 	<object class="CompressorEffect" id="{ef2b9582-1bc7-45ff-bf81-c0f0d975b396}">
