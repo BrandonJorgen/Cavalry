@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4d2e6928-ea53-4400-8693-e9ba2a9fe0ac}">
+		<property name="assetPath">
+			<value>Oracle_VL_MagazineGrab-St.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>8.4878750000000007</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{71658c2e-eab9-47ad-8635-92c829977c03}</destination>
+		</relationship>
+	</object>
+</objects>
