@@ -1,6 +1,6 @@
 //Maya ASCII 2022 scene
 //Name: Security-LF_Skybridge_01.ma
-//Last modified: Tue, Mar 15, 2022 05:58:25 PM
+//Last modified: Wed, Apr 06, 2022 04:14:55 AM
 //Codeset: 1252
 requires maya "2022";
 requires "stereoCamera" "10.0";
@@ -12,12 +12,12 @@ fileInfo "product" "Maya 2022";
 fileInfo "version" "2022";
 fileInfo "cutIdentifier" "202102181415-29bfc1879c";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19043)";
-fileInfo "UUID" "A2393468-4A69-CC17-59FE-13880BF8E201";
+fileInfo "UUID" "B86FB539-496C-45CD-FD75-38BD6DDD924C";
 createNode transform -s -n "persp";
 	rename -uid "1B66D6D9-4F68-0F95-4416-61BDA7745F50";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -5.8446875020766225 13.753581588772345 16.042931626403046 ;
-	setAttr ".r" -type "double3" 326.66165110789615 21558.59999999194 0 ;
+	setAttr ".t" -type "double3" 12.360166010951916 13.591608330531129 12.918115985777877 ;
+	setAttr ".r" -type "double3" 312.86165109749015 21964.199999961311 1.395239620850415e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E71CA3C2-4D96-9208-64EC-8C895840F621";
 	setAttr -k off ".v" no;
@@ -25,7 +25,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr ".ncp" 0.001;
 	setAttr ".fcp" 100;
 	setAttr ".fd" 0.05;
-	setAttr ".coi" 25.845932171825307;
+	setAttr ".coi" 17.533577732433368;
 	setAttr ".ow" 0.1;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
@@ -2010,21 +2010,21 @@ createNode mesh -n "gratedfloorShape" -p "gratedfloor";
 	setAttr ".gtag[3].gtagcmp" -type "componentList" 1 "e[2]";
 	setAttr ".gtag[4].gtagnm" -type "string" "rim";
 	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "e[0:3]";
-	setAttr ".pv" -type "double2" 0.11492264270782471 0.41027825246606253 ;
+	setAttr ".pv" -type "double2" 0.32246025651693344 0.42798314988613129 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 27 ".uvst[0].uvsp[0:26]" -type "float2" 0.14289498 0.69330096
-		 0.14301994 0.82004559 0.072467566 0.82011521 0.072342515 0.69337052 0.0019150972
-		 0.82018465 0.0017900318 0.6934402 0.071967602 0.31313658 0.0014150739 0.31320614
-		 0.0012534261 0.14934145 0.071798325 0.14163154 0.14235085 0.14156199 0.14252007 0.31306705
-		 0.072092533 0.43988121 0.0015400946 0.43995082 0.142645 0.43981171 0.072217524 0.56662583
-		 0.0016650259 0.56669545 0.14276999 0.56655633 0.0011764169 0.071148619 0.071728826
-		 0.07107906 0.14228129 0.071009457 0.22866887 0.070924222 0.22873843 0.14147678 0.0011068583
-		 0.00059619546 0.071659207 0.00052660704 0.14221174 0.00045704842 0.22859925 0.00037187338;
+	setAttr -s 27 ".uvst[0].uvsp[0:26]" -type "float2" 0.38651168 0.92884904
+		 0.38650495 1.1593107 0.25821835 1.159307 0.25822508 0.92884535 0.12993173 1.15930331
+		 0.12993844 0.92884165 0.25824523 0.23746008 0.12995853 0.23745635 0.1299676 -0.079918444
+		 0.25825423 -0.079914808 0.38654089 -0.079911113 0.38653177 0.2374638 0.25823849 0.46792173
+		 0.12995185 0.46791801 0.38652503 0.46792546 0.25823176 0.69838357 0.12994513 0.69837987
+		 0.38651836 0.69838732 0.12997134 -0.18748805 0.25825799 -0.18748441 0.38654459 -0.1874806
+		 0.51498514 -0.18747601 0.51498133 -0.079906583 0.12997507 -0.3033444 0.25826171 -0.3033407
+		 0.38654828 -0.30333695 0.51498878 -0.30333242;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-	setAttr -s 27 ".vt[0:26]"  0 0.012864071 1.73666477 16.51295853 0.012864071 1.73666477
+	setAttr -s 27 ".vt[0:26]"  0 0.012864071 1.73666477 16.70102692 0.012864071 1.73666477
 		 0 0.01286367 -1.73666477 16.70102692 0.01286367 -1.73666477 0 0.01286387 0 16.70102692 0.01286387 0
 		 12.4793911 0.012864071 1.73666477 12.4793911 0.01286387 0 12.4793911 0.01286367 -1.73666477
 		 9.3595438 0.012864071 1.73666477 9.3595438 0.01286387 0 9.3595438 0.01286367 -1.73666477
@@ -2084,7 +2084,7 @@ createNode mesh -n "GratedSideShape" -p "GratedSide";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.49078176729381084 0.12226879807700097 ;
+	setAttr ".pv" -type "double2" 0.49078178405761719 0.50142266228795052 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 412 ".uvst[0].uvsp";
 	setAttr ".uvst[0].uvsp[0:249]" -type "float2" 1.050122499 0.20752101 0.30669832
@@ -2691,7 +2691,7 @@ createNode mesh -n "CableSupport10Shape" -p "CableSupport10";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868565320968628 0.44027641415596008 ;
+	setAttr ".pv" -type "double2" 0.57641686499118805 0.78125107288360596 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.5764128 0.75066018
 		 0.57641673 0.75066113 0.33170944 0.81242973 0.82111502 0.75064421 0.27253541 0.81240982
@@ -2933,13 +2933,13 @@ createNode mesh -n "gratedfloorsmall1Shape" -p "gratedfloorsmall1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.10148578664492658 0.38951223328069096 ;
+	setAttr ".pv" -type "double2" 0.23551997542381287 0.41833293437957764 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.11645713 0.77898693
-		 0.11636266 0.61927223 0.20204344 0.61922145 0.20213798 0.77893627 0.20194897 0.45950675
-		 0.11626813 0.45955744 0.11617365 0.29984269 0.20185438 0.29979196 0.11607912 0.14012784
-		 0.2017599 0.14007717 0.11604699 0.085769027 0.20172778 0.085718364 0.11599627 8.8274479e-05
-		 0.20167705 3.7521124e-05 0.00088423491 0.085837215 0.00083357096 0.00015637279;
+	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.25648779 0.99966788
+		 0.25671244 0.7612685 0.38460442 0.76138908 0.3843798 0.9997884 0.38482904 0.52298975
+		 0.25693709 0.52286923 0.25716171 0.28446993 0.38505372 0.28459042 0.25738639 0.046070516
+		 0.3852784 0.046191096 0.25746286 -0.035068572 0.38535482 -0.034948111 0.25758335
+		 -0.16296059 0.38547537 -0.16284001 0.085564584 -0.035230517 0.085685074 -0.16312253;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
@@ -2982,7 +2982,7 @@ createNode mesh -n "GratedSide1Shape" -p "GratedSide1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.43738150596618652 0.12401323172578166 ;
+	setAttr ".pv" -type "double2" 0.43738150596618652 0.52165516652166843 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 424 ".uvst[0].uvsp";
 	setAttr ".uvst[0].uvsp[0:249]" -type "float2" 0.7631911 0.044496078 0.41216126
@@ -3678,7 +3678,7 @@ createNode mesh -n "GratedSide2Shape" -p "GratedSide2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.49688339233398438 0.12008218113074098 ;
+	setAttr ".pv" -type "double2" 0.49687671661376953 0.45777349174022675 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 328 ".uvst[0].uvsp";
 	setAttr ".uvst[0].uvsp[0:249]" -type "float2" -1.19591105 0.87484169 -1.1959132
@@ -4239,7 +4239,7 @@ createNode mesh -n "CableSupport11Shape" -p "CableSupport11";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665426731109619 0.43994241952896118 ;
+	setAttr ".pv" -type "double2" 0.57641708850860596 0.78125125169754028 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57642508 0.8118431
 		 0.57641751 0.81184173 0.06605196 0.81237948 0.066065431 0.81191117 0.27253434 0.81242174
@@ -4481,7 +4481,7 @@ createNode mesh -n "CableSupport12Shape" -p "CableSupport12";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.57641687989234924 0.78125115189178551 ;
+	setAttr ".pv" -type "double2" 0.57641690969467163 0.78125119209289551 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57640547 0.75065863
 		 0.57641745 0.75066018 0.33170989 0.81242949 0.82110858 0.75061536 0.27253488 0.81238788
@@ -4723,7 +4723,7 @@ createNode mesh -n "CableSupport13Shape" -p "CableSupport13";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665432691574097 0.4399421215057373 ;
+	setAttr ".pv" -type "double2" 0.57641696929931641 0.78125086426734924 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57642341 0.81184256
 		 0.57641757 0.81184173 0.066051483 0.8123796 0.066063762 0.81189537 0.27253541 0.81241667
@@ -4965,7 +4965,7 @@ createNode mesh -n "CableSupport14Shape" -p "CableSupport14";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868583202362061 0.44027614593505859 ;
+	setAttr ".pv" -type "double2" 0.57641692459583282 0.78125101327896118 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.5764184 0.75066113
 		 0.57641757 0.75066113 0.33170944 0.81242973 0.82111752 0.75066805 0.27253541 0.81239867
@@ -5207,7 +5207,7 @@ createNode mesh -n "CableSupport15Shape" -p "CableSupport15";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665483355522156 0.43994185328483582 ;
+	setAttr ".pv" -type "double2" 0.57641690969467163 0.78125125169754028 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57640851 0.81184262
 		 0.57641751 0.81184173 0.066057742 0.81247306 0.066048443 0.81177306 0.27253327 0.81239104
@@ -5449,7 +5449,7 @@ createNode mesh -n "CableSupport16Shape" -p "CableSupport16";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868607044219971 0.44027656316757202 ;
+	setAttr ".pv" -type "double2" 0.57641685009002686 0.78125134110450745 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.5764268 0.7506597
 		 0.57641709 0.75066113 0.33170861 0.81242949 0.82112902 0.75069857 0.27253434 0.81239003
@@ -5691,7 +5691,7 @@ createNode mesh -n "CableSupport17Shape" -p "CableSupport17";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665441632270813 0.43994174897670746 ;
+	setAttr ".pv" -type "double2" 0.57641696929931641 0.78125098347663879 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57642138 0.81184173
 		 0.57641751 0.81184238 0.066057801 0.81247497 0.066062033 0.81187999 0.27253377 0.81241149
@@ -5933,7 +5933,7 @@ createNode mesh -n "CableSupport18Shape" -p "CableSupport18";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868601083755493 0.4402763843536377 ;
+	setAttr ".pv" -type "double2" 0.57641682028770447 0.78125113248825073 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57642257 0.75066018
 		 0.57641709 0.75066113 0.33170909 0.81242907 0.82112515 0.75068164 0.27253434 0.81239432
@@ -6180,7 +6180,7 @@ createNode mesh -n "polySurfaceShape7" -p "|SkybridgeMeshes|XSupport|polySurface
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835883498191833 0.4989178329706192 ;
+	setAttr ".pv" -type "double2" 0.50087513029575348 0.10000193119049072 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36711836 0.13509545
 		 1.38857615 0.12783134 1.02060914 0.064907312 1.020620942 0.13509569 0.9991765 0.12783369
@@ -6270,7 +6270,7 @@ createNode mesh -n "polySurfaceShape6" -p "|SkybridgeMeshes|XSupport|polySurface
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141698002815247 0.49357612431049347 ;
+	setAttr ".pv" -type "double2" 0.50087516009807587 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.04201448 0.12783343
 		 1.020612359 0.1350961 1.36710346 0.13509658 1.38849878 0.12783295 1.36711586 0.13509554
@@ -6360,7 +6360,7 @@ createNode mesh -n "polySurfaceShape8" -p "|SkybridgeMeshes|XSupport|polySurface
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720685184001923 0.12035826221108437 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827746 0.22155046
 		 0.49828032 0.12035849 0.19362986 0.12159923 0.59947038 0.22155382 0.49829131 0.019166008
@@ -6439,7 +6439,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport1|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835865616798401 0.4989180862903595 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000191628932953 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36711276 0.13509592
 		 1.38854825 0.12783188 1.020612955 0.06490764 1.020618081 0.13509592 0.99918854 0.12783307
@@ -6529,7 +6529,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport1|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141692042350769 0.49357618391513824 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000188648700714 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.042021275 0.12783256
 		 1.020613551 0.13509625 1.36710727 0.13509625 1.3885076 0.1278328 1.36711347 0.13509595
@@ -6619,7 +6619,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport1|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720686674118042 0.12035825848579407 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49828607 0.22155021
 		 0.49828082 0.12035839 0.19362462 0.12156101 0.5994786 0.22154446 0.4982765 0.019165814
@@ -6698,7 +6698,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport2|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835856676101685 0.49891814589500427 ;
+	setAttr ".pv" -type "double2" 0.50087514519691467 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36711311 0.13509601
 		 1.38854647 0.12783194 1.020614028 0.06490761 1.020617843 0.13509578 0.9991926 0.12783283
@@ -6788,7 +6788,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport2|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141727805137634 0.49357575178146362 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041991234 0.12783444
 		 1.020606995 0.13509655 1.36709535 0.13509655 1.38846123 0.12783444 1.36712015 0.13509518
@@ -6878,7 +6878,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport2|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720676243305206 0.12035824358463287 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827796 0.22155128
 		 0.49827987 0.12035719 0.19362977 0.12159199 0.59947157 0.22155319 0.49827462 0.019165874
@@ -6957,7 +6957,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport3|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835814952850342 0.4989188015460968 ;
+	setAttr ".pv" -type "double2" 0.50087516009807587 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36710024 0.13509643
 		 1.38847721 0.12783366 1.020621061 0.064908057 1.020610094 0.13509643 0.99922156 0.12783104
@@ -7047,7 +7047,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport3|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141706943511963 0.49357596039772034 ;
+	setAttr ".pv" -type "double2" 0.50087514519691467 0.10000191628932953 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.042008281 0.12783381
 		 1.020609617 0.13509664 1.36709905 0.13509616 1.38848817 0.12783381 1.36711776 0.13509572
@@ -7137,7 +7137,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport3|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.497206911444664 0.12035825848579407 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.4982779 0.22155082
 		 0.49828076 0.12035862 0.19363406 0.12163437 0.59947062 0.22155322 0.49828652 0.01916524
@@ -7216,7 +7216,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport4|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50087518599447833 0.10000190138816833 ;
+	setAttr ".pv" -type "double2" 0.50087516009807587 0.10000187158584595 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36711967 0.13509569
 		 1.38858414 0.12783068 1.020608425 0.064907372 1.020621777 0.13509569 0.99917406 0.12783408
@@ -7306,7 +7306,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport4|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141727805137634 0.49357575178146362 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041990757 0.12783402
 		 1.020606041 0.13509655 1.36709416 0.13509631 1.38846123 0.12783474 1.36712289 0.13509554
@@ -7396,7 +7396,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport4|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720694124698639 0.12035826221108437 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49829274 0.22155061
 		 0.49828079 0.12035815 0.19362605 0.1215604 0.59948498 0.22153914 0.49828753 0.019165434
@@ -7475,7 +7475,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport5|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835889458656311 0.49891778826713562 ;
+	setAttr ".pv" -type "double2" 0.50087520480155945 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712503 0.1350953
 		 1.38858306 0.12783089 1.020606875 0.064907432 1.020625353 0.1350953 0.99917221 0.1278342
@@ -7565,7 +7565,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport5|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141724824905396 0.49357575178146362 ;
+	setAttr ".pv" -type "double2" 0.50087502598762512 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041989326 0.1278345
 		 1.020606041 0.13509649 1.36709321 0.13509697 1.38845873 0.12783474 1.36712182 0.1350956
@@ -7655,7 +7655,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport5|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.497206911444664 0.12035825403522593 ;
+	setAttr ".pv" -type "double2" 0.49720688164234161 0.12035824730992317 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827796 0.22155051
 		 0.49828035 0.12035767 0.19363278 0.12162279 0.59947032 0.22155385 0.49828652 0.019165479
@@ -7734,7 +7734,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport6|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.4783589243888855 0.49891781806945801 ;
+	setAttr ".pv" -type "double2" 0.50087504088878632 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712205 0.13509527
 		 1.38858151 0.1278311 1.020608306 0.064907193 1.02062273 0.13509575 0.99917316 0.12783387
@@ -7824,7 +7824,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport6|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141723334789276 0.49357575178146362 ;
+	setAttr ".pv" -type "double2" 0.50087523460388184 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041988254 0.12783444
 		 1.020606756 0.1350964 1.36709476 0.13509664 1.38845789 0.12783396 1.36712277 0.13509572
@@ -7914,7 +7914,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport6|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720686674118042 0.12035826593637466 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827743 0.22155087
 		 0.49828029 0.12035815 0.19363123 0.12161598 0.59946966 0.22155373 0.49827364 0.019165769
@@ -7993,7 +7993,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport7|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835886478424072 0.49891777336597443 ;
+	setAttr ".pv" -type "double2" 0.50087514519691467 0.10000187158584595 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712277 0.13509479
 		 1.38858366 0.12783077 1.020608544 0.064907432 1.020624042 0.13509554 0.99917209 0.12783432
@@ -8083,7 +8083,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport7|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141727805137634 0.49357572197914124 ;
+	setAttr ".pv" -type "double2" 0.50087513029575348 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041987658 0.12783456
 		 1.020606875 0.13509655 1.3670944 0.13509631 1.38845789 0.12783408 1.36712372 0.13509536
@@ -8173,7 +8173,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport7|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720685184001923 0.12035824730992317 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827746 0.22155006
 		 0.49828079 0.12035767 0.1936309 0.12160204 0.59946913 0.22155388 0.49826935 0.019165494
@@ -8247,7 +8247,7 @@ createNode mesh -n "CableSupport19Shape" -p "CableSupport19";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665480375289917 0.43994182348251343 ;
+	setAttr ".pv" -type "double2" 0.57641701400279999 0.78125107288360596 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57640988 0.81184256
 		 0.57641757 0.81184173 0.066055298 0.81243485 0.066049755 0.81178373 0.27253327 0.81239319
@@ -8489,7 +8489,7 @@ createNode mesh -n "CableSupport20Shape" -p "CableSupport20";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868583202362061 0.44027611613273621 ;
+	setAttr ".pv" -type "double2" 0.57641704380512238 0.78125140070915222 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57641751 0.75066113
 		 0.57641745 0.75066113 0.33170909 0.81242913 0.82111949 0.75066352 0.27253434 0.81240016
@@ -8736,7 +8736,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport8|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.4783589243888855 0.49891772866249084 ;
+	setAttr ".pv" -type "double2" 0.50087523460388184 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712253 0.13509548
 		 1.38859022 0.12783074 1.020606995 0.064907402 1.020623684 0.13509548 0.99916971 0.12783426
@@ -8826,7 +8826,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport8|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.4714166522026062 0.4935765266418457 ;
+	setAttr ".pv" -type "double2" 0.50087518990039825 0.10000187158584595 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.042047143 0.12783176
 		 1.020617604 0.13509598 1.36711168 0.13509598 1.3885504 0.127832 1.36710572 0.13509625
@@ -8916,7 +8916,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport8|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720694124698639 0.12035826221108437 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49826983 0.2215513
 		 0.49828082 0.12035839 0.19363037 0.12159193 0.59946156 0.22156182 0.49828696 0.019165874
@@ -8995,7 +8995,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport9|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835883498191833 0.49891775846481323 ;
+	setAttr ".pv" -type "double2" 0.50087518990039825 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712372 0.13509536
 		 1.38858795 0.12783107 1.020606518 0.064907402 1.020623326 0.1350956 0.99917281 0.12783378
@@ -9085,7 +9085,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport9|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.4714171439409256 0.49357596039772034 ;
+	setAttr ".pv" -type "double2" 0.50087502598762512 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.042005777 0.12783375
 		 1.02060926 0.13509637 1.36710072 0.13509637 1.38848484 0.12783375 1.36711693 0.13509569
@@ -9175,7 +9175,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport9|polySurfac
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720683693885803 0.12035824358463287 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49828464 0.2215514
 		 0.49828035 0.12035801 0.19362915 0.12159503 0.59947878 0.22154662 0.49828458 0.019164942
@@ -9254,7 +9254,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport10|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835856676101685 0.49891820549964905 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000193119049072 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36710966 0.13509601
 		 1.3885361 0.127832 1.02061224 0.064907819 1.020616412 0.13509601 0.99919438 0.12783247
@@ -9344,7 +9344,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport10|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141729295253754 0.49357576668262482 ;
+	setAttr ".pv" -type "double2" 0.50087524950504303 0.10000184178352356 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.041989684 0.12783396
 		 1.020606518 0.13509679 1.36709416 0.13509679 1.38846016 0.1278342 1.36711776 0.13509583
@@ -9434,7 +9434,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport10|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720673263072968 0.12035825103521347 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49829561 0.22155167
 		 0.49828032 0.12035825 0.19362995 0.12160165 0.59948832 0.22153637 0.49826834 0.019164994
@@ -9508,7 +9508,7 @@ createNode mesh -n "CableSupport22Shape" -p "CableSupport22";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868577241897583 0.44027608633041382 ;
+	setAttr ".pv" -type "double2" 0.57641692459583282 0.78125086426734924 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57641757 0.75066018
 		 0.57641757 0.75066113 0.33170944 0.81242913 0.82111967 0.75066304 0.27253434 0.81240016
@@ -9755,7 +9755,7 @@ createNode mesh -n "polySurfaceShape2" -p "|SkybridgeMeshes|XSupport11|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47835886478424072 0.49891772866249084 ;
+	setAttr ".pv" -type "double2" 0.50087517499923706 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.36712348 0.13509506
 		 1.3885833 0.12783083 1.020608306 0.064907193 1.02062428 0.13509506 0.99917209 0.1278339
@@ -9845,7 +9845,7 @@ createNode mesh -n "polySurfaceShape1" -p "|SkybridgeMeshes|XSupport11|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:19]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.47141727805137634 0.49357573688030243 ;
+	setAttr ".pv" -type "double2" 0.50087514519691467 0.10000190138816833 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 48 ".uvst[0].uvsp[0:47]" -type "float2" 1.04198885 0.12783432
 		 1.020606518 0.13509658 1.36709392 0.13509658 1.38845944 0.12783432 1.36712325 0.1350953
@@ -9935,7 +9935,7 @@ createNode mesh -n "polySurfaceShape3" -p "|SkybridgeMeshes|XSupport11|polySurfa
 	setAttr ".iog[0].og[0].gcl" -type "componentList" 1 "f[0:15]";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.5 0.5 ;
+	setAttr ".pv" -type "double2" 0.49720688164234161 0.12035824730992317 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 36 ".uvst[0].uvsp[0:35]" -type "float2" 0.49827743 0.22155075
 		 0.49828076 0.12035825 0.39601028 0.12158073 0.5994699 0.22155409 0.49827841 0.019165099
@@ -10009,7 +10009,7 @@ createNode mesh -n "CableSupport23Shape" -p "CableSupport23";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665447592735291 0.43994134664535522 ;
+	setAttr ".pv" -type "double2" 0.57641685009002686 0.78125113248825073 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57641816 0.81184173
 		 0.57641751 0.81184173 0.066055298 0.81242621 0.066058695 0.81185472 0.27253434 0.81240219
@@ -10251,7 +10251,7 @@ createNode mesh -n "BottomSupportShape1" -p "BottomSupport1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50739558041095734 0.78051708422026655 ;
+	setAttr ".pv" -type "double2" 0.49828094244003296 0.78087323904037476 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 64 ".uvst[0].uvsp[0:63]" -type "float2" 0.49828315 0.74965477
 		 0.49828312 0.74967939 1.55934405 0.81223893 1.55934727 0.7497313 0.4982785 0.81213665
@@ -10392,13 +10392,13 @@ createNode mesh -n "gratedfloorsmall2Shape" -p "gratedfloorsmall2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.10759343494518836 0.42737969756126404 ;
+	setAttr ".pv" -type "double2" 0.10765664465725422 0.39304730296134949 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.12355536 0.85384464
-		 0.12351775 0.6831286 0.21510023 0.68310845 0.21513784 0.85382438 0.21506259 0.51239252
-		 0.12348014 0.51241267 0.12344253 0.3416968 0.21502501 0.34167653 0.12340492 0.17098087
-		 0.2149874 0.17096063 0.12338769 0.092517436 0.21497011 0.09249723 0.12336749 0.00093495846
-		 0.21494997 0.00091475248 6.9200993e-05 0.092544615 4.9054623e-05 0.00096213818;
+	setAttr -s 16 ".uvst[0].uvsp[0:15]" -type "float2" 0.12974569 0.99166375
+		 0.12978475 0.75203049 0.25833869 0.75205147 0.25829965 0.99168479 0.25837776 0.51241821
+		 0.12982382 0.51239723 0.12986287 0.27276397 0.25841683 0.27278495 0.12990195 0.033130735
+		 0.2584559 0.033151656 0.12991989 -0.077008069 0.25847384 -0.076987147 0.12994085
+		 -0.205562 0.25849482 -0.20554107 -0.043181535 -0.077036329 -0.043160584 -0.20559019;
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
 	setAttr ".covm[0]"  0 1 1;
@@ -10488,7 +10488,7 @@ createNode mesh -n "BottomSupportShape" -p "BottomSupport";
 	setAttr ".gtag[4].gtagcmp" -type "componentList" 1 "f[4]";
 	setAttr ".gtag[5].gtagnm" -type "string" "top";
 	setAttr ".gtag[5].gtagcmp" -type "componentList" 1 "f[1]";
-	setAttr ".pv" -type "double2" 0.51239559054374695 0.78055214881896973 ;
+	setAttr ".pv" -type "double2" 0.49828028678894043 0.78077465295791626 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 72 ".uvst[0].uvsp[0:71]" -type "float2" 0.49827507 0.81197226
 		 0.4982864 0.74956977 2.020590782 0.81191945 -1.036026478 0.81168568 0.4982864 0.74956954
@@ -10601,7 +10601,7 @@ createNode mesh -n "CableSupport24Shape" -p "CableSupport24";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62665456533432007 0.43994142115116119 ;
+	setAttr ".pv" -type "double2" 0.57641707360744476 0.78125095367431641 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.57641751 0.81184238
 		 0.57641757 0.81184173 0.066056132 0.81244266 0.066057801 0.81184745 0.27253434 0.8124007
@@ -10843,7 +10843,7 @@ createNode mesh -n "ButtomSupportShape" -p "ButtomSupport";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.50081253051757812 0.78122953405573148 ;
+	setAttr ".pv" -type "double2" 0.49828124046325684 0.78102827072143555 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 64 ".uvst[0].uvsp[0:63]" -type "float2" 0.49828228 0.74976593
 		 0.4982819 0.74991494 1.73716795 0.81231749 1.73717117 0.74980801 0.49827993 0.81236297
@@ -10944,7 +10944,7 @@ createNode mesh -n "TopSupportShape2" -p "TopSupport2";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.49827945232391357 0.78107637166976929 ;
+	setAttr ".pv" -type "double2" 0.49827897548675537 0.78107646107673645 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 66 ".uvst[0].uvsp[0:65]" -type "float2" 0.49828476 0.75032216
 		 0.49828422 0.75020772 1.51844811 0.81200212 1.51845825 0.75049353 0.49827412 0.81194514
@@ -11086,7 +11086,7 @@ createNode mesh -n "TopSupportShape1" -p "TopSupport1";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.51106111705303192 0.78100325719143748 ;
+	setAttr ".pv" -type "double2" 0.49828028678894043 0.78076335787773132 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 72 ".uvst[0].uvsp[0:71]" -type "float2" 0.49828202 0.81232786
 		 0.49827856 0.74948764 1.97585261 0.81222475 -0.97929001 0.81243008 0.49828303 0.81240118
@@ -11199,7 +11199,7 @@ createNode mesh -n "TopSupportShape" -p "TopSupport";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.49828040599822998 0.78136167642289556 ;
+	setAttr ".pv" -type "double2" 0.49828064441680908 0.78136146068572998 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 40 ".uvst[0].uvsp[0:39]" -type "float2" -2.45107174 0.75012553
 		 0.10363343 0.75032806 -0.020620704 0.81241083 -1.96539068 0.75004882 0.83473194 0.75020504
@@ -11264,7 +11264,7 @@ createNode mesh -n "CableSupport25Shape" -p "CableSupport25";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868577241897583 0.44027601182460785 ;
+	setAttr ".pv" -type "double2" 0.57641695439815521 0.78125137090682983 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.8894242 0.75005698
 		 0.88942051 0.75065076 0.57641459 0.81246972 0.57642001 0.75003576 0.90581226 0.74999225
@@ -11506,7 +11506,7 @@ createNode mesh -n "CableSupport26Shape" -p "CableSupport26";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.62868571281433105 0.44027596712112427 ;
+	setAttr ".pv" -type "double2" 0.57641699910163879 0.78125113248825073 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 80 ".uvst[0].uvsp[0:79]" -type "float2" 0.13130322 0.81240958
 		 1.021523833 0.75064504 0.57642001 0.75003302 0.57641238 0.81246734 0.11490977 0.81238472
@@ -11740,22 +11740,22 @@ createNode mesh -n "polySurfaceShape2" -p "CableSupport26";
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "E070EE89-49C4-4053-598F-5CA4ED7D0DBF";
+	rename -uid "C63925A5-4242-7AC4-2B6A-74AE79866315";
 	setAttr -s 4 ".lnk";
 	setAttr -s 4 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "CB4AD621-4A1D-3494-E47E-33ABAF7D131C";
+	rename -uid "F1389E65-4BFE-0A07-40F1-05B74EBA8E5C";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "2F08459E-426B-EFAE-9079-948B9C74A6EF";
+	rename -uid "A3771CEE-40E9-D231-8215-DD9C3D678100";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "E8D039F7-4103-9990-9FCB-F090748AE8BF";
+	rename -uid "E26730C2-4ED7-ECA0-EC06-C4803354BE22";
 	setAttr ".cdl" 1;
 	setAttr -s 2 ".dli[1]"  1;
 	setAttr -s 2 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "FBF0488C-43BD-5085-1A21-89B2971CC244";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "BA9CD553-47D4-8B3D-A6E2-3BA42F06EC81";
+	rename -uid "FB22A177-47E6-1D33-DD75-28BBA6301D01";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "6A642A86-412B-5D69-DAEA-BBA691DADCCF";
 	setAttr ".g" yes;
@@ -11775,7 +11775,7 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n"
 		+ "            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 32768\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n"
 		+ "            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -controllers 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n"
-		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 722\n            -height 821\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 827\n            -height 821\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n        modelEditor -e \n            -pluginObjects \"gpuCacheDisplayFilter\" 1 \n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n"
 		+ "            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n"
 		+ "            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -organizeByClip 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showParentContainers 0\n"
@@ -11802,8 +11802,8 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -useBaseRenderer 0\n                -useReducedRenderer 0\n                -smallObjectCulling 0\n                -smallObjectThreshold -1 \n                -interactiveDisableShadows 0\n                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -controllers 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n"
 		+ "                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n            stereoCameraView -e \n                -pluginObjects \"gpuCacheDisplayFilter\" 1 \n                $editorName; };\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n"
 		+ "\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 722\\n    -height 821\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 722\\n    -height 821\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 827\\n    -height 821\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 0\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 32768\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -controllers 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 827\\n    -height 821\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName;\\nmodelEditor -e \\n    -pluginObjects \\\"gpuCacheDisplayFilter\\\" 1 \\n    $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 12 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
@@ -11827,7 +11827,7 @@ createNode gameFbxExporter -n "gameExporterPreset1";
 	setAttr ".ebm" yes;
 	setAttr ".inc" yes;
 	setAttr ".fv" -type "string" "FBX201800";
-	setAttr ".exp" -type "string" "I:/Cavalry/Maya Project Files//Env/Exports/Skybridge";
+	setAttr ".exp" -type "string" "I:/Cavalry/Maya Project Files/Env/Exports/Skybridge";
 	setAttr ".exf" -type "string" "Skybridge_01_SM_Low";
 createNode gameFbxExporter -n "gameExporterPreset2";
 	rename -uid "52E3BA08-4FFA-62E6-7C7C-27B2171AED86";
@@ -11869,18 +11869,31 @@ createNode file -n "file1";
 	setAttr ".cs" -type "string" "sRGB";
 createNode place2dTexture -n "place2dTexture1";
 	rename -uid "5D2E78AB-43E5-F492-7B30-CDBD4EFECA4A";
+createNode file -n "file2";
+	rename -uid "C4E0FDAB-404B-9C0B-C476-8DA0BA269F98";
+	setAttr ".ftn" -type "string" "I:/Cavalry/Textures/ColorMaps_GratedMetal/grated_metal_basecolor.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "place2dTexture2";
+	rename -uid "F3B54BC7-4698-3A70-F8F0-BA853C785282";
+	setAttr ".re" -type "float2" 7.8000002 7.8000002 ;
 createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
-	rename -uid "FAEAE082-4998-DA73-AFD6-C799C911124D";
+	rename -uid "B4A7BD01-4EBE-27CD-5665-AB88EC61B969";
 	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
-	setAttr ".tgi[0].vl" -type "double2" -616.40802148315743 -901.19044038038544 ;
-	setAttr ".tgi[0].vh" -type "double2" 618.78897376949919 945.23805767770943 ;
-	setAttr -s 2 ".tgi[0].ni";
-	setAttr ".tgi[0].ni[0].x" 65.714286804199219;
-	setAttr ".tgi[0].ni[0].y" 87.142860412597656;
+	setAttr ".tgi[0].vl" -type "double2" -336.142334884332 -269.92977653899533 ;
+	setAttr ".tgi[0].vh" -type "double2" 393.15197461014191 784.90987310388459 ;
+	setAttr -s 4 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -241.42857360839844;
+	setAttr ".tgi[0].ni[0].y" 64.285713195800781;
 	setAttr ".tgi[0].ni[0].nvs" 1923;
-	setAttr ".tgi[0].ni[1].x" -241.42857360839844;
-	setAttr ".tgi[0].ni[1].y" 64.285713195800781;
+	setAttr ".tgi[0].ni[1].x" 68.571426391601562;
+	setAttr ".tgi[0].ni[1].y" 588.5714111328125;
 	setAttr ".tgi[0].ni[1].nvs" 1923;
+	setAttr ".tgi[0].ni[2].x" -238.57142639160156;
+	setAttr ".tgi[0].ni[2].y" 565.71429443359375;
+	setAttr ".tgi[0].ni[2].nvs" 1923;
+	setAttr ".tgi[0].ni[3].x" 65.714286804199219;
+	setAttr ".tgi[0].ni[3].y" 87.142860412597656;
+	setAttr ".tgi[0].ni[3].nvs" 1923;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -11898,8 +11911,10 @@ select -ne :defaultShaderList1;
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
+	setAttr -s 2 ".u";
 select -ne :defaultRenderingList1;
 select -ne :defaultTextureList1;
+	setAttr -s 2 ".tx";
 select -ne :initialShadingGroup;
 	setAttr -s 3 ".dsm";
 	setAttr ".ro" yes;
@@ -11934,12 +11949,14 @@ relationship "shadowLink" ":lightLinker1" "lambert6SG.message" ":defaultLightSet
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "layerManager.dli[1]" "layer1.id";
+connectAttr "file2.oc" "Grated_Mat.c";
 connectAttr "Grated_Mat.oc" "lambert5SG.ss";
 connectAttr "gratedfloorsmall2Shape.iog" "lambert5SG.dsm" -na;
 connectAttr "gratedfloorShape.iog" "lambert5SG.dsm" -na;
 connectAttr "gratedfloorsmall1Shape.iog" "lambert5SG.dsm" -na;
 connectAttr "lambert5SG.msg" "materialInfo24.sg";
 connectAttr "Grated_Mat.msg" "materialInfo24.m";
+connectAttr "file2.msg" "materialInfo24.t" -na;
 connectAttr "file1.oc" "Metal_TS.c";
 connectAttr "Metal_TS.oc" "lambert6SG.ss";
 connectAttr "CableSupport26Shape.iog" "lambert6SG.dsm" -na;
@@ -12061,17 +12078,45 @@ connectAttr "place2dTexture1.vt3" "file1.vt3";
 connectAttr "place2dTexture1.vc1" "file1.vc1";
 connectAttr "place2dTexture1.o" "file1.uv";
 connectAttr "place2dTexture1.ofs" "file1.fs";
-connectAttr "file1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+connectAttr ":defaultColorMgtGlobals.cme" "file2.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "file2.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "file2.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "file2.ws";
+connectAttr "place2dTexture2.c" "file2.c";
+connectAttr "place2dTexture2.tf" "file2.tf";
+connectAttr "place2dTexture2.rf" "file2.rf";
+connectAttr "place2dTexture2.mu" "file2.mu";
+connectAttr "place2dTexture2.mv" "file2.mv";
+connectAttr "place2dTexture2.s" "file2.s";
+connectAttr "place2dTexture2.wu" "file2.wu";
+connectAttr "place2dTexture2.wv" "file2.wv";
+connectAttr "place2dTexture2.re" "file2.re";
+connectAttr "place2dTexture2.of" "file2.of";
+connectAttr "place2dTexture2.r" "file2.ro";
+connectAttr "place2dTexture2.n" "file2.n";
+connectAttr "place2dTexture2.vt1" "file2.vt1";
+connectAttr "place2dTexture2.vt2" "file2.vt2";
+connectAttr "place2dTexture2.vt3" "file2.vt3";
+connectAttr "place2dTexture2.vc1" "file2.vc1";
+connectAttr "place2dTexture2.o" "file2.uv";
+connectAttr "place2dTexture2.ofs" "file2.fs";
+connectAttr "place2dTexture1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
 		;
-connectAttr "place2dTexture1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+connectAttr "file2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "place2dTexture2.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "file1.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
 		;
 connectAttr "lambert5SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert6SG.pa" ":renderPartition.st" -na;
 connectAttr "Grated_Mat.msg" ":defaultShaderList1.s" -na;
 connectAttr "Metal_TS.msg" ":defaultShaderList1.s" -na;
 connectAttr "place2dTexture1.msg" ":defaultRenderUtilityList1.u" -na;
+connectAttr "place2dTexture2.msg" ":defaultRenderUtilityList1.u" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "file1.msg" ":defaultTextureList1.tx" -na;
+connectAttr "file2.msg" ":defaultTextureList1.tx" -na;
 connectAttr "Skybridge_Security_LF_geoShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "STICKShape.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "SCALEShape.iog" ":initialShadingGroup.dsm" -na;
