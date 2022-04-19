@@ -1,4 +1,5 @@
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODBank.h
@@ -9,11 +10,10 @@ I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSetti
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODVCA.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAnimNotifyPlay.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
-I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
 I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetLookup.h
+I:\Cavalry\CavalryProject\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankLookup.h
